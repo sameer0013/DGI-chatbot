@@ -555,7 +555,7 @@
                                 "name of cse hod"
                         ],
                         "responses": [
-                                "Mr. Bipin Pandey is Computer Science Engineering HOD who is available on first floor"
+                                "<a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Mr. Bipin Pandey</a> is Computer Science Engineering HOD who is available on first floor"
                         ],
                         "context_set": ""
                 },
@@ -570,7 +570,7 @@
                                 "name of mba hod"
                         ],
                         "responses": [
-                                "Dr. Priya Satsangi is Master of Business Administration HOD who is available on first floor"
+                                "<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\">Dr. Priya Satsangi</a> is Master of Business Administration HOD who is available on first floor"
                         ],
                         "context_set": ""
                 },
@@ -638,7 +638,7 @@
                                 "when is semester"
                         ],
                         "responses": [
-                                "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>"
+                                "Here is the Academic Calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>"
                         ],
                         "context_set": ""
                 },
@@ -653,7 +653,7 @@
                                 "admission process"
                         ],
                         "responses": [
-                                "Application can also be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college."
+                                "Application can be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college."
                         ],
                         "context_set": ""
                 },
@@ -685,7 +685,7 @@
                                 "seats"
                         ],
                         "responses": [
-                                "60 student's per branch. "
+                                "60 student's per branch."
                         ],
                         "context_set": ""
                 },
@@ -879,7 +879,7 @@
                                 "metro station nearby"
                         ],
                         "responses": [
-                                "Knowledge Park 2 <a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park II, Greater Noida, Uttar Pradesh 201310, India</a>"
+                                "<a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park 2, Greater Noida ( Aqua line )</a>"
                         ],
                         "context_set": ""
                 },
@@ -899,7 +899,8 @@
                                 "aktu results",
                                 "result link",
                                 "check result",
-                                "show result"
+                                "show result",
+                                "result"
                         ],
                         "responses": [
                                 "result is available on <a target=\"_blank\" href=\"https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx\"> AKTU one view </a>"
@@ -914,6 +915,7 @@
                                 "where to get admin card",
                                 "get admit card",
                                 "download admit card",
+                                "admit card downoload",
                                 "update aktu details"
                         ],
                         "responses": [
@@ -925,9 +927,13 @@
                         "tag": "ionos",
                         "patterns": [
                                 "official mail",
+                                "official email",
                                 "students mail",
                                 "ionos portal",
-                                "ionos mail link"
+                                "ionos mail link",
+                                "student's login to mail",
+                                "students ionos login",
+                                "student login ionos"
                         ],
                         "responses": [
                                 "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here."
