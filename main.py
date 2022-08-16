@@ -41,7 +41,6 @@ def chat(inp):
         responses=tg["responses"]
         return random.choice(responses)
 
-
 stemmer = LancasterStemmer()
 data = pickle.load(open('traning_data','rb'))
 words = data['words']
