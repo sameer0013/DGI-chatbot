@@ -7,6 +7,7 @@ import numpy as np
 import tensorflow as tf
 from pickletools import optimize
 from nltk.stem.lancaster import LancasterStemmer
+from keras import models,layers
 from keras.callbacks import TensorBoard, EarlyStopping
 
 
@@ -66,14 +67,14 @@ def main():
 
     train_x = list(training[:,0])
     train_y = list(training[:,1])
+    
 
     tf.reset_default_graph()                                                #Reset Underlying Graph data
 
     #Building our own Neural Network
     net = tflearn.input_data(shape=[None,len(train_x[0])])
-    net = tflearn.fully_connected(net,10)
-    net = tflearn.dropout(net,0.2)
-    net = tflearn.fully_connected(net,10)
+    net = tflearn.fully_connected(net,8)
+    net = tflearn.fully_connected(net,8)
     net = tflearn.fully_connected(net,len(train_y[0]),activation='softmax')
     net = tflearn.regression(net)
     
@@ -83,6 +84,7 @@ def main():
     #n_epoch is the number of times that model will se our data during training
     model.fit(train_x,train_y,n_epoch=1000,batch_size=8,show_metric=True)
     model.save('model.tflearn') #Saving the builded model
+   
     pickle.dump({'words':words,'classes':classes,'train_x':train_x,'train_y':train_y},open('traning_data','wb'))
    
 if __name__ == '__main__':

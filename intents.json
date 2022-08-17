@@ -505,8 +505,19 @@
                                 "Who is IT HOD",
                                 "Where is IT HOD",
                                 "it hod",
+                                "hod of csit",
+                                "csit hod",
+                                "who is hod of csit",
+                                "who is hod of it",
                                 "hod it",
-                                "name of it hod"
+                                "name of it hod",
+                                "where i found csit or it hod",
+                                "Prof. Sonia Rani",
+                                "Sonia mam",
+                                "office of csit hod",
+                                "it hod office",
+                                "where is sonia mam cabin",
+                                "where i found it or csit hod"
                         ],
                         "responses": [
                                 "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of IT department who is available on first floor"
@@ -520,10 +531,15 @@
                                 "Where is  mechanical HOD",
                                 "mechanical hod",
                                 "name of mechanical hod",
-                                "hod mechanical"
+                                "hod mechanical",
+                                "where i found mechanical hod",
+                                "Where is  mechanical hod office",
+                                "where i found Shailesh sir",
+                                "Prof. Shailesh Kumar singh",
+                                "shailesh sir"
                         ],
                         "responses": [
-                                "<a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\">Prof. Shailesh Kumar Singh,/a> is Mechanical HOD who is available on second floor"
+                                "Prof.<a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\"> Shailesh Kumar Singh,/a> is Mechanical HOD who is available on second floor"
                         ],
                         "context_set": ""
                 },
@@ -534,10 +550,19 @@
                                 "Where is  Electronics & Communication HOD",
                                 "Electronics & Communication hod",
                                 "name of Electronics & Communication hod",
-                                "hod EC"
+                                "hod EC",
+                                "where i found Ece hod",
+                                "who is ece hod",
+                                "ece hod",
+                                "eletronics hod",
+                                "hod of ece",
+                                "where i found sanghamitra sir",
+                                "where i found arora sir",
+                                "Prof. sanghamitra V. Arora"
+    
                         ],
                         "responses": [
-                                "<a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\">Prof. Sanghamitra V. Arora</a> is Mechanical HOD who is available on second floor"
+                                "Prof.<a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\"> Sanghamitra V. Arora</a> is Mechanical HOD who is available on second floor"
                         ],
                         "context_set": ""
                 },
@@ -552,10 +577,15 @@
                                 "cse hod",
                                 "name of Computer Science Engineering hod",
                                 "hod cse",
-                                "name of cse hod"
+                                "name of cse hod",
+                                "where is bipin sir",
+                                "cabin of bipin sir",
+                                "where i found cse hod",
+                                "where i found bipin sir",
+                                "Mr. Bipin pandey"
                         ],
                         "responses": [
-                                "<a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Mr. Bipin Pandey</a> is Computer Science Engineering HOD who is available on first floor"
+                                "Mr.<a target = \"_blank\" href = \"http://www.bipinpandey.com/\"> Bipin Pandey</a> is Computer Science Engineering HOD who is available on first floor"
                         ],
                         "context_set": ""
                 },
@@ -567,10 +597,14 @@
                                 "Where is  mba HOD",
                                 "mba hod",
                                 "hod bma",
-                                "name of mba hod"
+                                "name of mba hod",
+                                "where is Priya mam",
+                                "miss priya satsangi",
+                                "where i meet hod of mba",
+                                "where is priya satsangi mam"
                         ],
                         "responses": [
-                                "<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\">Dr. Priya Satsangi</a> is Master of Business Administration HOD who is available on first floor"
+                                "Dr.<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\"> Priya Satsangi</a> is Master of Business Administration HOD who is available on first floor"
                         ],
                         "context_set": ""
                 },
@@ -615,7 +649,9 @@
                                 "Who is college chairman",
                                 "Where is chairman's office",
                                 "chairman",
-                                "name of chairman"
+                                "name of chairman",
+                                "where is our chairman office",
+                                "where i found satish sir"
                         ],
                         "responses": [
                                 "Dr. Satish Yadav is college's chairman who is available on Ground floor"
