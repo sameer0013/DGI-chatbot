@@ -93,9 +93,9 @@
                                 "who designed you"
                         ],
                         "responses": [
-                                "Sameer and Pranjal developed me in Aug 2022, for their College project",
-                                "I was developed by Sameer and pranjal of csit branch",
-                                "Two young boys developed me in DGI college, Sameer Aggarwal and Pranjal Bhardwaj"
+                                "Sameer and Pranjal developed me in Aug 2022, for their College project.",
+                                "I was developed by Sameer and pranjal of csit branch.",
+                                "Two young boys developed me in DGI college, Sameer Aggarwal and Pranjal Bhardwaj."
                         ],
                         "context_set": ""
                 },
@@ -201,7 +201,7 @@
                                 "IT"
                         ],
                         "responses": [
-                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.<br>for more details you can click on this <a target=\"_blank\" href=\"https://collegedunia.com/college/13413-dronacharya-group-of-institutions-dgi-greater-noida/courses-fees\">link</a>"
+                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.<br>for more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>"
                         ],
                         "context_set": ""
                 },
@@ -295,7 +295,7 @@
                                 "location"
                         ],
                         "responses": [
-                                "27, Knowledge Park-III, Greater Noida, UttarPradesh  <a target=\"_blank\" href=\"https://www.google.com/maps/place/Dronacharya+Group+of+Institutions/@28.476152,77.480326,17z/data=!4m5!3m4!1s0x0:0x16e3e3e82a7dbd8a!8m2!3d28.476137!4d77.4787361?hl=en\"> here</a> "
+                                "<a target=\"_blank\" href=\"https://www.google.com/maps/place/Dronacharya+Group+of+Institutions/@28.476152,77.480326,17z/data=!4m5!3m4!1s0x0:0x16e3e3e82a7dbd8a!8m2!3d28.476137!4d77.4787361?hl=en\">27, Knowledge Park-III, Greater Noida, Uttar Pradesh - 201306 </a> "
                         ],
                         "context_set": ""
                 },
@@ -328,7 +328,7 @@
                                 "distance between hostel and college"
                         ],
                         "responses": [
-                                "Dronacharya Group of Institutions does not provide hostel facility but there are many hostels within walking distance from college"
+                                "Dronacharya Group of Institutions does not provide any hostel facility but there are many hostels within walking distance from college."
                         ],
                         "context_set": ""
                 },
@@ -348,7 +348,7 @@
                                 "what about events"
                         ],
                         "responses": [
-                                "Sports Week, Conference and various other event conducted in the college. For more information you can visit college Website <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here "
+                                "Sports Week, Conferences, compititions and various other event conducted in the college. For more information you can visit college Website <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here "
                         ],
                         "context_set": ""
                 },
@@ -370,7 +370,7 @@
                                 "documents needed"
                         ],
                         "responses": [
-                                "To know more about document required visit <a target=\"_blank\" href=\"https://admission.dronacharya.info/gn/applyonline.aspx\">here</a> and also you can contact at +91-9910380115 "
+                                "To know about document required visit <a target=\"_blank\" href=\"https://admission.dronacharya.info/gn/applyonline.aspx\">here</a> or you can contact at +91-9910380115 "
                         ],
                         "context_set": ""
                 },
@@ -386,7 +386,7 @@
                                 "floors"
                         ],
                         "responses": [
-                                "Dronacharya Group Of Institutions has total 3 floors."
+                                "Dronacharya Group Of Institutions has total 3 floors. "
                         ],
                         "context_set": ""
                 },
@@ -412,7 +412,6 @@
                                 "What is next lecture"
                         ],
                         "responses": [
-                                "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/IT/Syllabus.aspx\"> here</a>",
                                 "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/IT/Syllabus.aspx\"> here</a>"
                         ],
                         "context_set": ""
@@ -446,8 +445,7 @@
                                 "college infrastructure"
                         ],
                         "responses": [
-                                "Dronacharya Group of Institution has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection",
-                                "The DGI campus has several basic facilities including  sports, canteen, library, healthcare centre, sports ground, auditorium, IT infrastructure, transport facility, laboratories etc"
+                                "Dronacharya Group of Institution has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection. The DGI campus has all the basic facilities including  sports, canteen, library, healthcare centre, sports ground, auditorium, IT infrastructure, transport facility, laboratories etc"
                         ],
                         "context_set": ""
                 },
@@ -511,7 +509,7 @@
                                 "name of it hod"
                         ],
                         "responses": [
-                                "Dr. Sonia Rani is the head of IT department who is available on first floor"
+                                "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of IT department who is available on first floor"
                         ],
                         "context_set": ""
                 },
@@ -525,7 +523,7 @@
                                 "hod mechanical"
                         ],
                         "responses": [
-                                "Prof. Shailesh Kumar Singh is Mechanical HOD who is available on second floor"
+                                "<a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\">Prof. Shailesh Kumar Singh,/a> is Mechanical HOD who is available on second floor"
                         ],
                         "context_set": ""
                 },
@@ -539,7 +537,7 @@
                                 "hod EC"
                         ],
                         "responses": [
-                                "Prof. Sanghamitra V Arora is Mechanical HOD who is available on second floor"
+                                "<a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\">Prof. Sanghamitra V. Arora</a> is Mechanical HOD who is available on second floor"
                         ],
                         "context_set": ""
                 },
@@ -557,7 +555,7 @@
                                 "name of cse hod"
                         ],
                         "responses": [
-                                "Mr. Bipin Pandey is Computer Science Engineering HOD who is available on first floor"
+                                "<a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Mr. Bipin Pandey</a> is Computer Science Engineering HOD who is available on first floor"
                         ],
                         "context_set": ""
                 },
@@ -572,7 +570,7 @@
                                 "name of mba hod"
                         ],
                         "responses": [
-                                "Dr. Priya Satsangi is Master of Business Administration HOD who is available on first floor"
+                                "<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\">Dr. Priya Satsangi</a> is Master of Business Administration HOD who is available on first floor"
                         ],
                         "context_set": ""
                 },
@@ -640,7 +638,7 @@
                                 "when is semester"
                         ],
                         "responses": [
-                                "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>"
+                                "Here is the Academic Calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>"
                         ],
                         "context_set": ""
                 },
@@ -655,7 +653,7 @@
                                 "admission process"
                         ],
                         "responses": [
-                                "Application can also be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college."
+                                "Application can be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college."
                         ],
                         "context_set": ""
                 },
@@ -687,7 +685,7 @@
                                 "seats"
                         ],
                         "responses": [
-                                "60 student's per branch. "
+                                "60 student's per branch."
                         ],
                         "context_set": ""
                 },
@@ -881,7 +879,7 @@
                                 "metro station nearby"
                         ],
                         "responses": [
-                                "Knowledge Park 2 <a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park II, Greater Noida, Uttar Pradesh 201310, India</a>"
+                                "<a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park 2, Greater Noida ( Aqua line )</a>"
                         ],
                         "context_set": ""
                 },
@@ -901,7 +899,8 @@
                                 "aktu results",
                                 "result link",
                                 "check result",
-                                "show result"
+                                "show result",
+                                "result"
                         ],
                         "responses": [
                                 "result is available on <a target=\"_blank\" href=\"https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx\"> AKTU one view </a>"
@@ -916,6 +915,7 @@
                                 "where to get admin card",
                                 "get admit card",
                                 "download admit card",
+                                "admit card downoload",
                                 "update aktu details"
                         ],
                         "responses": [
@@ -927,9 +927,13 @@
                         "tag": "ionos",
                         "patterns": [
                                 "official mail",
+                                "official email",
                                 "students mail",
                                 "ionos portal",
-                                "ionos mail link"
+                                "ionos mail link",
+                                "student's login to mail",
+                                "students ionos login",
+                                "student login ionos"
                         ],
                         "responses": [
                                 "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here."
