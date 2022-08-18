@@ -1,5 +1,6 @@
 import requests as r
 from bot_config import TOKEN, API_URL, LAST_MESSAGE_ID
+from main import chat
 
 def message_is_for_chatbot(text):
     if text is None:
@@ -36,7 +37,7 @@ def main():
 
         # what chat bot rerurned
         # chatbot_returned = from_bot(send_this_to_chatbot)
-        chatbot_returned = "ok from bot"
+        chatbot_returned = str(chat(send_this_to_chatbot))
         chat_id = i.get("chat").get("id")
         if i.get("chat").get("type") == "private":
             sendMessage(chat_id, chatbot_returned)
