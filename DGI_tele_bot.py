@@ -1,5 +1,5 @@
 import requests as r
-# from main import chat
+from main import chat
 from urllib.parse import quote_plus as quote
 from bot_config import API_URL, LAST_UPDATE_ID
 
@@ -44,15 +44,15 @@ def main():
     for i in update:
         print(i)
         send_this_to_chatbot = i["text"]
-        # chatbot_returned = str(chat(send_this_to_chatbot))
+        chatbot_returned = str(chat(send_this_to_chatbot))
         chat_id = i.get("chat").get("id")
-        # print(send_this_to_chatbot, chatbot_returned, chat_id)
+        print(send_this_to_chatbot, chatbot_returned, chat_id)
     
-        # if i.get("chat").get("type") == "private":
-            # print(sendMessage(chat_id, chatbot_returned))
+        if i.get("chat").get("type") == "private":
+            print(sendMessage(chat_id, chatbot_returned))
     
-        # else:
-            # print(reply_to(chat_id, i.get("message_id"), chatbot_returned))
+        else:
+            print(reply_to(chat_id, i.get("message_id"), chatbot_returned))
 
 if __name__ == "__main__":
     while True:
