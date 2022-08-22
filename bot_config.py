@@ -4,4 +4,4 @@ NAME = "DGI bot"
 USERNAME = "DGI_tele_bot"
 API_URL = f"https://api.telegram.org/bot{TOKEN}/"
 API_URL_FORMAT = "https://api.telegram.org/bot<token>/METHOD_NAME"
-LAST_MESSAGE_ID = 0
+LAST_UPDATE_ID = -1
