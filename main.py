@@ -29,12 +29,15 @@ def bow(sentence, words, show_details=False):
                     print("Found in bag: %s"% w)
     return(np.array(bag))
 
+error_thresold = 0.39
 def chat(inp):
   while True:
     if inp.lower()=="quit":
       break
     results=model.predict([bow(inp,words)])
     results_index=np.argmax(results)
+    if(results[0][results_index]<error_thresold):
+      return -1
     tag=classes[results_index]
     for tg in intents["intents"]:
       if tg["tag"]==tag:
@@ -56,13 +59,11 @@ net = tflearn.fully_connected(net,8)
 net = tflearn.fully_connected(net,len(train_y[0]),activation='softmax')
 net = tflearn.regression(net)
 model = tflearn.DNN(net,tensorboard_dir ='tflearn_logs')
-model.load("model.tflearn",weights_only=True)
+model.load("Model//model.tflearn",weights_only=True)
 
 with open('intents.json') as f:
     intents = json.load(f)
-
-context ={}
-error_threshold =0.25           
+         
 
 @app.route("/")
 def home():
