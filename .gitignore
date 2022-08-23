@@ -2,3 +2,4 @@
 *.html
 *.pyc
 test.py
+Model/tflearn_logs
