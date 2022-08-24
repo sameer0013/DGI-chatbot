@@ -45,13 +45,13 @@ def chat(inp):
         return random.choice(responses)
 
 stemmer = LancasterStemmer()
-data = pickle.load(open('traning_data','rb'))
+data = pickle.load(open('Model/traning_data','rb'))
 words = data['words']
 classes = data['classes']
 train_x = data['train_x']
 train_y = data['train_y']
 
-app = Flask(__name__)
+
 tf.reset_default_graph()
 net = tflearn.input_data(shape=[None,len(train_x[0])])
 net = tflearn.fully_connected(net,8)
@@ -61,19 +61,8 @@ net = tflearn.regression(net)
 model = tflearn.DNN(net,tensorboard_dir ='tflearn_logs')
 model.load("Model//model.tflearn",weights_only=True)
 
-with open('intents.json') as f:
+with open('Model//intents.json') as f:
     intents = json.load(f)
          
 
-@app.route("/")
-def home():
-    return render_template("check.html")
 
-@app.route("/get")
-def get_bot_response():
-    userText = request.args.get('msg')
-    time.sleep(1)
-    return str(chat(userText))
-
-if __name__ == "__main__":
-  app.run()

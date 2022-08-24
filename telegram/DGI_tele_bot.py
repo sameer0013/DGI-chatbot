@@ -1,5 +1,7 @@
 import requests as r
-from main import chat
+import sys
+sys.path.insert(1,".")
+from Model.bot import chat
 from bot_config import API_URL, LAST_UPDATE_ID
 
 def message_is_for_chatbot(text):

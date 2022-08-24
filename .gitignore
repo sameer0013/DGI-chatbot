@@ -3,3 +3,4 @@
 *.pyc
 test.py
 Model/tflearn_logs
+Model/dgibot.h5
