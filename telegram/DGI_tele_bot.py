@@ -1,5 +1,6 @@
-import requests as r
 import sys
+import database
+import requests as r
 sys.path.insert(1,".")
 from Model.bot import chat
 from bot_config import API_URL, LAST_UPDATE_ID
@@ -63,9 +64,7 @@ def main():
         response = chat(tele_message)
         if response == -1:
             response = "I don't understand. can you rephrase please"
-            # to_database(i["text"])
-        else:
-            response = str(response)
+        response = str(response)
         
         chat_id = i.get("chat").get("id")
         print(tele_message, response, chat_id)
@@ -75,8 +74,9 @@ def main():
     
         else:
             print(reply_to(chat_id, i.get("message_id"), response))
+        database.insert(tele_message)
 
 if __name__ == "__main__":
+    database.con_table()
     while True:
         main()
-
