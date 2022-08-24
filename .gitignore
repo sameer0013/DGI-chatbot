@@ -1,5 +1,4 @@
-*.js
-*.html
+web page/
 *.pyc
 test.py
 Model/tflearn_logs
