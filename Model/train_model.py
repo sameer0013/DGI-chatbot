@@ -15,7 +15,7 @@ def main():
     nltk.download('punkt')
 
     stemmer = LancasterStemmer()
-    with open('intents.json') as json_file:
+    with open('Model//intents.json') as json_file:
         intents = json.load(json_file)
 
     words =[]
