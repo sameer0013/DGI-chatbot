@@ -1,5 +1,6 @@
-web page/
+*.db
 *.pyc
 test.py
+web page/
 Model/tflearn_logs
 Model/dgibot.h5
