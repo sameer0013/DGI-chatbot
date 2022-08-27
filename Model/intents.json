@@ -13,14 +13,8 @@
                                 "Good day",
                                 "Whats up",
                                 "heyy",
-                                "whatsup",
-                                "Good Morning",
-                                "goodmorning",
-                                "mrng",
-                                "morning",
-                                "namaste",
-                                "gm",
-                                "tata"
+                                "whatsup", 
+                                "namaste"
                         ],
                         "responses": [
                                 "Hello!",
@@ -70,7 +64,8 @@
                                 "talk to you later",
                                 "tyyl",
                                 "i got to go",
-                                "gtg"
+                                "gtg",
+                                "tata"
                         ],
                         "responses": [
                                 "Sad to see you go :(",
@@ -78,6 +73,46 @@
                                 "Goodbye!",
                                 "Come back soon",
                                 "Well, I'm off!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mrng",
+                        "patterns": [
+                                "good morning",
+                                "gm",
+                                "mrng",
+                                "subh prabhat",
+                                "suprabhat",
+                                "morning",
+                                "gud mrng",
+                                "morgan",
+                                "good mrng",
+                                "goodmorning",
+                                "gudmrng"
+                        ],
+                        "responses": [
+                                "good morning ",
+                                "Good morning. Hope you are ready for a brilliant day ahead",
+                                "Hope you slept so well and are ready for a great day"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "night",
+                        "patterns": [
+                                "good night",
+                                "gn",
+                                "night",
+                                "subh ratri",
+                                "subhratri",
+                                "night time",
+                                "sleep"
+                        ],
+                        "responses": [
+                                "good night ",
+                                "Sweet dreams and good night ",
+                                "I hope that you are comfy and cozy in bed "
                         ],
                         "context_set": ""
                 },
@@ -99,7 +134,10 @@
                                 "who create you",
                                 "creators",
                                 "who made you",
-                                "who designed you"
+                                "who designed you",
+                                "tumko kisne banaya",
+                                "appko kisne banaya",
+                                "kisne banaya tmko"
                         ],
                         "responses": [
                                 "Sameer and Pranjal developed me in Aug 2022, for their College project.",
@@ -124,7 +162,14 @@
                                 "what am i chatting to",
                                 "who am i chatting to",
                                 "who am i taking to",
-                                "what are you"
+                                "what are you",
+                                "apka naam",
+                                "app kon ho",
+                                "tum kon ho",
+                                "kon ho tum",
+                                "tm kon ho",
+                                "kon ho app",
+                                "kon ho"
                         ],
                         "responses": [
                                 "You can call me DGIBOT.",
