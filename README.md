@@ -36,4 +36,4 @@ Use train_model.py to train the model for your own. The default parameters are t
 ## Contributors
 [Sameer](https://github.com/sameer0013/)
 
-[Pranjal](https://github.com/pran-jal)
+Pranjal
