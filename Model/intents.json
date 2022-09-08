@@ -3,16 +3,18 @@
                 {
                         "tag": "greeting",
                         "patterns": [
-                                "Hi",
+                                "hi",
                                 "hola",
                                 "hlo",
+                                "hiya",
+                                "howdy",
                                 "Is anyone there?",
                                 "Hello",
                                 "Good day",
                                 "Whats up",
                                 "heyy",
-                                "whatsup",
-                                "howdy"
+                                "whatsup", 
+                                "namaste"
                         ],
                         "responses": [
                                 "Hello!",
@@ -28,7 +30,7 @@
                         "tag": "health",
                         "patterns": [
                                 "how's you",
-                                "How are you",
+                                "how are you",
                                 "what about you",
                                 "fine?",
                                 "whats your progress",
@@ -62,7 +64,8 @@
                                 "talk to you later",
                                 "tyyl",
                                 "i got to go",
-                                "gtg"
+                                "gtg",
+                                "tata"
                         ],
                         "responses": [
                                 "Sad to see you go :(",
@@ -70,6 +73,46 @@
                                 "Goodbye!",
                                 "Come back soon",
                                 "Well, I'm off!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mrng",
+                        "patterns": [
+                                "good morning",
+                                "gm",
+                                "mrng",
+                                "subh prabhat",
+                                "suprabhat",
+                                "morning",
+                                "gud mrng",
+                                "morgan",
+                                "good mrng",
+                                "goodmorning",
+                                "gudmrng"
+                        ],
+                        "responses": [
+                                "good morning ",
+                                "Good morning. Hope you are ready for a brilliant day ahead",
+                                "Hope you slept so well and are ready for a great day"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "night",
+                        "patterns": [
+                                "good night",
+                                "gn",
+                                "night",
+                                "subh ratri",
+                                "subhratri",
+                                "night time",
+                                "sleep"
+                        ],
+                        "responses": [
+                                "good night ",
+                                "Sweet dreams and good night ",
+                                "I hope that you are comfy and cozy in bed "
                         ],
                         "context_set": ""
                 },
@@ -91,7 +134,10 @@
                                 "who create you",
                                 "creators",
                                 "who made you",
-                                "who designed you"
+                                "who designed you",
+                                "tumko kisne banaya",
+                                "appko kisne banaya",
+                                "kisne banaya tmko"
                         ],
                         "responses": [
                                 "Sameer and Pranjal developed me in Aug 2022, for their College project.",
@@ -116,7 +162,14 @@
                                 "what am i chatting to",
                                 "who am i chatting to",
                                 "who am i taking to",
-                                "what are you"
+                                "what are you",
+                                "apka naam",
+                                "app kon ho",
+                                "tum kon ho",
+                                "kon ho tum",
+                                "tm kon ho",
+                                "kon ho app",
+                                "kon ho"
                         ],
                         "responses": [
                                 "You can call me DGIBOT.",
@@ -234,23 +287,20 @@
                         "tag": "college",
                         "patterns": [
                                 "tell me about your college",
-                                "what DGI is",
                                 "college info",
                                 "college details",
                                 "college information",
-                                "what type of college is dgi",
                                 "Dgi college",
-                                "is dgi college",
+                                "what dgi is",
+                                "dgi college",
                                 "college details",
-                                "dgi is",
-                                "what is DGI?",
                                 "Dronacharya Group of Institution is college?",
                                 "dgi is engineering college",
                                 "engineering college",
                                 "dgi engineering college"
                         ],
                         "responses": [
-                                "Dronacharya Group of Institutions, Greater Noida was established in the year 2006.<br> It is also known as DGI Greater Noida and is situated in Greater Noida, Uttar Pradesh.",
+                                "Dronacharya Group of Institutions, Greater Noida is a engeenering college that was established in the year 2006.<br> It is also known as DGI Greater Noida and is situated in Greater Noida, Uttar Pradesh.",
                                 "DGI Greater Noida is a private institute affiliated to Dr APJ Abdul Kalam Technical University, Lucknow"
                         ],
                         "context_set": ""
@@ -504,13 +554,25 @@
                         "tag": "ithod",
                         "patterns": [
                                 "Who is IT HOD",
+                                "csithod",
+                                "ithod",
+                                "tell me about csithod",
+                                "tell me about ithod",
                                 "Where is IT HOD",
                                 "it hod",
+                                "csit department head",
+                                "it department head",
                                 "hod of csit",
                                 "csit hod",
+                                "csit head",
+                                "head of csit",
+                                "it head",
+                                "head of it",
                                 "who is hod of csit",
                                 "who is hod of it",
                                 "hod it",
+                                "name of csit hod",
+                                "who is sonia rani",
                                 "name of it hod",
                                 "where i found csit or it hod",
                                 "Prof. Sonia Rani",
@@ -528,6 +590,15 @@
                 {
                         "tag": "mechhod",
                         "patterns": [
+                                "mechanicalhod",
+                                "tell me about mechnicalhod",
+                                "mechhod",
+                                "mechanical department head",
+                                "mechanical head",
+                                "head of mechanical",
+                                "mech head",
+                                "who is shailesh kumar",
+                                "who is shailesh kumar singh",
                                 "Who is Mechanical HOD",
                                 "Where is  mechanical HOD",
                                 "mechanical hod",
@@ -547,6 +618,20 @@
                 {
                         "tag": "E&Chod",
                         "patterns": [
+                                "e&chod",
+                                "electrical hod",
+                                "electricalhod",
+                                "about electrical hod",
+                                "who is sanghamitr aarora",
+                                "electrical communication hod",
+                                "ecehod",
+                                "eee department head",
+                                "ece and eee hod",
+                                "ece head",
+                                "eee head",
+                                "head of eee and ece",
+                                "eee hod",
+                                "eeehod",
                                 "Who is Electronics & Communication HOD",
                                 "Where is  Electronics & Communication HOD",
                                 "Electronics & Communication hod",
@@ -570,6 +655,13 @@
                 {
                         "tag": "CSEhod",
                         "patterns": [
+                                "csehod",
+                                "cse hod",
+                                "who is bipin pandey",
+                                "computer science hod",
+                                "cse department head",
+                                "cse head",
+                                "computer science head",
                                 "Who is Computer Science Engineering HOD",
                                 "Who is cse HOD",
                                 "Where is  Computer Science Engineering HOD",
@@ -595,6 +687,12 @@
                         "patterns": [
                                 "Who is Master of Business Administration HOD",
                                 "Who is mba HOD",
+                                "mbahod",
+                                "mba department head",
+                                "mba department hod",
+                                "head of mba",
+                                "who is priya satsangi",
+                                "priya satsangi",
                                 "Where is  mba HOD",
                                 "mba hod",
                                 "hod bma",
@@ -618,7 +716,9 @@
                                 "Who is college registrar",
                                 "Where is registrar's office",
                                 "registrar",
-                                "name of registrar"
+                                "name of registrar",
+                                "s.k. srivastava",
+                                "who is registrar"
                         ],
                         "responses": [
                                 "Prof. S.K. Srivastava is college's registrar who is available on Ground floor"
@@ -634,7 +734,10 @@
                                 "Who is college director",
                                 "Where is director's office",
                                 "director",
-                                "name of director"
+                                "name of director",
+                                "k.k saini",
+                                "who is k.k saini",
+                                "director name"
                         ],
                         "responses": [
                                 "Dr. K.K. Saini is college's director who is available on Ground floor"
@@ -652,7 +755,9 @@
                                 "chairman",
                                 "name of chairman",
                                 "where is our chairman office",
-                                "where i found satish sir"
+                                "where i found satish sir",
+                                "who is satish yadav",
+                                "satish yadav"
                         ],
                         "responses": [
                                 "Dr. Satish Yadav is college's chairman who is available on Ground floor"
@@ -669,6 +774,14 @@
                                 "sem",
                                 "semester",
                                 "exam",
+                                "semester exam",
+                                "timetable for exam",
+                                "time table",
+                                "where i found exam sheet",
+                                "where is timetable",
+                                "exam sheet",
+                                "exam dates",
+                                "exam date",
                                 "when is exam",
                                 "exam timetable",
                                 "exam dates",
@@ -687,7 +800,9 @@
                                 "How to take admission in your college",
                                 "What is the process for admission",
                                 "admission",
-                                "admission process"
+                                "admission process",
+                                "process for admission",
+                                "admission details"
                         ],
                         "responses": [
                                 "Application can be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college."
@@ -701,7 +816,9 @@
                                 "College facility",
                                 "What are college facilities",
                                 "facilities",
-                                "facilities provided"
+                                "facilities provided",
+                                "facilities",
+                                "facilities provided by college"
                         ],
                         "responses": [
                                 "DGI provides fully AC Lab with internet connection, smart classroom, Auditorium, library, canteen"
@@ -748,12 +865,18 @@
                         "tag": "committee",
                         "patterns": [
                                 "what are the different committees in college",
+                                "what are the different clubs in college",
                                 "different committees in college",
+                                "different clubs in college",
+                                "different comunities in college",
+                                "different comunity in college",
                                 "Are there any committee in college",
                                 "Give me committees details",
+                                "Give me clubs details",
                                 "committees",
                                 "how many committee are there in college",
                                 "clubs in college",
+                                "comunity in college",
                                 "is there any club in college",
                                 "is there clubs in college",
                                 "college clubs"
@@ -787,7 +910,8 @@
                                 "idiot",
                                 "dumb ass",
                                 "asshole",
-                                "fucker"
+                                "fucker",
+                                "nigga"
                         ],
                         "responses": [
                                 "please use appropriate language",
@@ -827,6 +951,8 @@
                                 "its ok",
                                 "Thanks",
                                 "k",
+                                "kk",
+                                "hmm",
                                 "ok",
                                 "okay"
                         ],
@@ -848,7 +974,9 @@
                                 "things you can do",
                                 "what can u do for me",
                                 "how u can help me",
-                                "why i should use you"
+                                "why i should use you",
+                                "about your services",
+                                "services"
                         ],
                         "responses": [
                                 "I can answer to low-intermediate questions regarding college",
@@ -881,7 +1009,7 @@
                                 "who is the hod"
                         ],
                         "responses": [
-                                "HODs differ for each branch, please be more specific like: (HOD cse)"
+                                "HODs differ for each branch, please be more specific like: (HOD csit)"
                         ],
                         "context_set": ""
                 },
@@ -889,6 +1017,8 @@
                         "tag": "transport",
                         "patterns": [
                                 "bus route",
+                                "routes",
+                                "routes for college",
                                 "mode of transportation",
                                 "how to get to college",
                                 "buses for college",
@@ -913,6 +1043,8 @@
                                 "which metro station is closest",
                                 "nearby metro stations",
                                 "metro",
+                                "metro routes",
+                                "metro route",
                                 "metro station nearby"
                         ],
                         "responses": [
@@ -965,12 +1097,16 @@
                         "patterns": [
                                 "official mail",
                                 "official email",
+                                "official gmail",
                                 "students mail",
+                                "offical mail login",
+                                "login for gmail",
                                 "ionos portal",
                                 "ionos mail link",
                                 "student's login to mail",
                                 "students ionos login",
-                                "student login ionos"
+                                "student login ionos",
+                                "student login"
                         ],
                         "responses": [
                                 "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here."
