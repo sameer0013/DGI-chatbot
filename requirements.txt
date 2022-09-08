@@ -2,9 +2,8 @@ numpy==1.21.6
 nltk==3.7
 tensorflow
 tflearn==0.5.0
-json==2.0.9
+json
 keras==2.1.6
-flask==2.2.2
 h5py==2.10.0
 pickle
 random
