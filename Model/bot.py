@@ -1,5 +1,4 @@
 import nltk
-nltk.download('all')
 import json
 import time
 import random
