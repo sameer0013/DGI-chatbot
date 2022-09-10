@@ -1,3 +1,4 @@
+from cgi import test
 import sys
 import database
 import requests as r
@@ -8,7 +9,9 @@ from bot_config import API_URL, LAST_UPDATE_ID
 def message_is_for_chatbot(text):
     if text is None:
         return False
-    if text.startswith('/'):    
+    if text.startswith('/'):
+        if text == "/start":
+            return True    
         return False
     return True
 
@@ -50,7 +53,7 @@ def get_messages():
     new_messages =[]
     for i in update:
         message = i.get("message", None)
-        if message and message["from"]["is_bot"] is False and message_is_for_chatbot(message.get("text")):
+        if message and (message["from"]["is_bot"] is False or message.get("text") == "/start") and message_is_for_chatbot(message.get("text")):
             new_messages.append(message)
     return new_messages
 
@@ -61,13 +64,17 @@ def main():
     for i in update:
         print(i)
         tele_message = i["text"]
-        response = chat(tele_message)
-        if response == -1:
-            response = "I don't understand. can you rephrase please"
+        if tele_message == "/start":
+            response = "Hi, How can I help you today ?"
+        else:
+            response = chat(tele_message)
+            if response == -1:
+                response = "I don't understand. can you rephrase please"
+        
         response = str(response)
         
         chat_id = i.get("chat").get("id")
-        print(tele_message, response, chat_id)
+        print(response, chat_id)
     
         if i.get("chat").get("type") == "private":
             print(sendMessage(chat_id, response))
@@ -78,5 +85,6 @@ def main():
 
 if __name__ == "__main__":
     database.con_table()
+    print(r.get(API_URL + f"getMyCommands").content)
     while True:
         main()
