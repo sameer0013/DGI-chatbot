@@ -6,6 +6,7 @@ import pickle
 import tflearn
 import numpy as np
 import tensorflow as tf
+from tensorflow.python.framework import ops
 from unicodedata import name
 from pickletools import float8
 from flask import Flask,render_template,request
@@ -51,8 +52,7 @@ classes = data['classes']
 train_x = data['train_x']
 train_y = data['train_y']
 
-
-tf.reset_default_graph()
+ops.reset_default_graph()
 net = tflearn.input_data(shape=[None,len(train_x[0])])
 net = tflearn.fully_connected(net,8)
 net = tflearn.fully_connected(net,8)
