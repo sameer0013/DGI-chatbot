@@ -64,7 +64,7 @@ def main():
         print(i)
         tele_message = i["text"]
         if tele_message == "/start":
-            response = "Hi, How can I help you today ?"
+            response = "Hi, I am DGI bot. What would you like to know about DGI ?"
         else:
             response = chat(tele_message)
             if response == -1:
@@ -73,7 +73,7 @@ def main():
         response = str(response)
         
         chat_id = i.get("chat").get("id")
-        print(response, chat_id)
+        print("message - ",tele_message, ",response - " response, ",chat_Id - " chat_id)
     
         if i.get("chat").get("type") == "private":
             print(sendMessage(chat_id, response))
