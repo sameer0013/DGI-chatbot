@@ -64,7 +64,7 @@ def main():
         print(i)
         tele_message = i["text"]
         if tele_message == "/start":
-            response = "Hi, I am DGI bot. What would you like to know about DGI ?"
+            response = "Hi, I am DGI bot. How can I help you ?"
         else:
             response = chat(tele_message)
             if response == -1:
