@@ -73,7 +73,7 @@ def main():
         response = str(response)
         
         chat_id = i.get("chat").get("id")
-        print("message - ",tele_message, ",response - " response, ",chat_Id - " chat_id)
+        print("message - ", tele_message, ",response - ", response, ",chat_Id - ", chat_id)
     
         if i.get("chat").get("type") == "private":
             print(sendMessage(chat_id, response))
