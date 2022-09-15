@@ -85,6 +85,5 @@ def main():
 
 if __name__ == "__main__":
     database.con_table()
-    print(r.get(API_URL + f"getMyCommands").content)
     while True:
         main()
