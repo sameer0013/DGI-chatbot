@@ -1,7 +1,7 @@
 import sys
 import database
 import requests as r
-sys.path.insert(1,".")
+sys.path.insert(1, ".")
 from Model.bot import chat
 from bot_config import API_URL, LAST_UPDATE_ID
 

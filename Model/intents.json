@@ -12,6 +12,7 @@
                                 "Hello",
                                 "Good day",
                                 "Whats up",
+                                "hey",
                                 "heyy",
                                 "whatsup", 
                                 "namaste"
@@ -583,7 +584,7 @@
                                 "where i found it or csit hod"
                         ],
                         "responses": [
-                                "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of IT department who is available on first floor"
+                                "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor"
                         ],
                         "context_set": ""
                 },
@@ -611,7 +612,7 @@
                                 "shailesh sir"
                         ],
                         "responses": [
-                                "Prof.<a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\"> Shailesh Kumar Singh</a> is Mechanical HOD who is available on second floor"
+                                "Prof.<a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\"> Shailesh Kumar Singh</a> is Mechanical HOD who's office is on second floor"
                         ],
                         "context_set": ""
                 },
@@ -648,7 +649,7 @@
     
                         ],
                         "responses": [
-                                "Prof.<a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\"> Sanghamitra V. Arora</a> is Mechanical HOD who is available on second floor"
+                                "Prof.<a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\"> Sanghamitra V. Arora</a> is Electrical HOD who's office is on second floor"
                         ],
                         "context_set": ""
                 },
@@ -678,7 +679,7 @@
                                 "Mr. Bipin pandey"
                         ],
                         "responses": [
-                                "Mr.<a target = \"_blank\" href = \"http://www.bipinpandey.com/\"> Bipin Pandey</a> is Computer Science Engineering HOD who is available on first floor"
+                                "Mr.<a target = \"_blank\" href = \"http://www.bipinpandey.com/\"> Bipin Pandey</a> is Computer Science Engineering HOD who's office is on first floor"
                         ],
                         "context_set": ""
                 },
@@ -703,7 +704,7 @@
                                 "where is priya satsangi mam"
                         ],
                         "responses": [
-                                "Dr.<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\"> Priya Satsangi</a> is Master of Business Administration HOD who is available on first floor"
+                                "Dr.<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\"> Priya Satsangi</a> is Master of Business Administration HOD who's office is on first floor"
                         ],
                         "context_set": ""
                 },
@@ -721,7 +722,7 @@
                                 "who is registrar"
                         ],
                         "responses": [
-                                "Prof. S.K. Srivastava is college's registrar who is available on Ground floor"
+                                "Prof. S.K. Srivastava is college's registrar who's office is on Ground floor"
                         ],
                         "context_set": ""
                 },
@@ -740,7 +741,7 @@
                                 "director name"
                         ],
                         "responses": [
-                                "Dr. K.K. Saini is college's director who is available on Ground floor"
+                                "Dr. K.K. Saini is college's director who's office is on Ground floor"
                         ],
                         "context_set": ""
                 },
@@ -760,7 +761,7 @@
                                 "satish yadav"
                         ],
                         "responses": [
-                                "Dr. Satish Yadav is college's chairman who is available on Ground floor"
+                                "Dr. Satish Yadav is college's chairman who's office is on Ground floor"
                         ],
                         "context_set": ""
                 },
@@ -911,7 +912,13 @@
                                 "dumb ass",
                                 "asshole",
                                 "fucker",
-                                "nigga"
+                                "nigga",
+                                "Bsdk",
+                                "Betichod",
+                                "Gandu",
+                                "saale",
+                                "Pdh liya kr",
+                                "Betichod"
                         ],
                         "responses": [
                                 "please use appropriate language",
