@@ -256,7 +256,7 @@
                                 "IT"
                         ],
                         "responses": [
-                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.<br>for more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>"
+                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.for more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>"
                         ],
                         "context_set": ""
                 },
@@ -400,7 +400,7 @@
                                 "what about events"
                         ],
                         "responses": [
-                                "Sports Week, Conferences, competitions and various other event conducted in the college. For more information you can visit college Website <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here "
+                                "Sports Week, Conferences, competitions and various other event conducted in the college. For more information you can visit college Website <a href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here "
                         ],
                         "context_set": ""
                 },
@@ -761,7 +761,7 @@
                                 "satish yadav"
                         ],
                         "responses": [
-                                "Dr. Satish Yadav is college's chairman who's office is on Ground floor"
+                                "Dr. Satish Yadav is college's chairman."
                         ],
                         "context_set": ""
                 },

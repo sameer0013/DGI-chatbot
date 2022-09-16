@@ -1,5 +1,5 @@
 # DGI-chatbot
-An AI and NLP based chatbot for answering general questions about [Dronacharya Group of Institutions](https://gnindia.dronacharya.info/). Chat directly to the bot on telegram or add it to a group/channel. Ask it about the courses, faculty, facilities, location, bus routes, etc. Almost all the queries are answered based on the model and any unanswered query is stored in a database to process and improve the bot.
+An Deep Learning  and NLP based chatbot for answering general questions about [Dronacharya Group of Institutions](https://gnindia.dronacharya.info/). Chat directly to the bot on telegram or add it to a group/channel. Ask it about the courses, faculty, facilities, location, bus routes, etc. Almost all the queries are answered based on the model and any unanswered query is stored in a database to process and improve the bot.
 
 DGI-chatbot is currently available for telegram only.
 
