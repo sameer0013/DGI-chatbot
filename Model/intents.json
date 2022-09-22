@@ -256,7 +256,7 @@
                                 "IT"
                         ],
                         "responses": [
-                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.for more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>"
+                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.\nFor more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>"
                         ],
                         "context_set": ""
                 },
@@ -301,7 +301,7 @@
                                 "dgi engineering college"
                         ],
                         "responses": [
-                                "Dronacharya Group of Institutions, Greater Noida is a engeenering college that was established in the year 2006.<br> It is also known as DGI Greater Noida and is situated in Greater Noida, Uttar Pradesh.",
+                                "Dronacharya Group of Institutions, Greater Noida is a engeenering college that was established in the year 2006.\nIt is also known as DGI Greater Noida and is situated in Greater Noida, Uttar Pradesh.",
                                 "DGI Greater Noida is a private institute affiliated to Dr APJ Abdul Kalam Technical University, Lucknow"
                         ],
                         "context_set": ""
@@ -400,7 +400,7 @@
                                 "what about events"
                         ],
                         "responses": [
-                                "Sports Week, Conferences, competitions and various other event conducted in the college. For more information you can visit college Website <a href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here "
+                                "Sports Week, Conferences, competitions and various other event conducted in the college. For more information you can visit college Website <a href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here </a>"
                         ],
                         "context_set": ""
                 },

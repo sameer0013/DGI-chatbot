@@ -12,11 +12,10 @@ def con_table():
 def insert(message):
     con = sqlite3.connect('telegram\\telegram_database.db')
     cur = con.cursor()
-    print("inserting ", message)
     cur.execute("INSERT INTO messages(message) VALUES(?)", (message,))
     con.commit()
     con.close()
-    return "message inserted into table"
+    return f"{message} inserted to database"
 
 def get_messages():
     con = sqlite3.connect('telegram\\telegram_database.db')

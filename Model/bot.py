@@ -1,15 +1,10 @@
 import nltk
 import json
-import time
 import random
 import pickle
 import tflearn
 import numpy as np
-import tensorflow as tf
 from tensorflow.python.framework import ops
-from unicodedata import name
-from pickletools import float8
-from flask import Flask,render_template,request
 from nltk.stem.lancaster import LancasterStemmer 
 
 def clean_up_sentence(sentence):
@@ -33,8 +28,6 @@ def bow(sentence, words, show_details=False):
 error_thresold = 0.39
 def chat(inp):
   while True:
-    if inp.lower()=="quit":
-      break
     results=model.predict([bow(inp,words)])
     results_index=np.argmax(results)
     if(results[0][results_index]<error_thresold):
