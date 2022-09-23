@@ -33,17 +33,6 @@ def sendMessage(chat_id, message, reply_id = None):
     return r.get(API_URL + "sendMessage", json = json)
 
     # return r.get(API_URL + f"sendMessage?chat_id={id}&text={quote(message)}&parse_mode=html")
-
-# send message
-# def reply_to(chat_id, reply_id, message):
-#     json = {
-#         "chat_id":chat_id, 
-#         "text": message, 
-#         "parse_mode": "html",
-#         "reply_to_message_id": reply_id,
-#     }
-#     return r.get(API_URL + "sendMessage", json = json)
-
     # return r.get(API_URL + f"sendMessage?chat_id={chat_id}&text={parse_for_url(message)}&reply_to_message_id={reply_id}&parse_mode=html")
 
 # get updates
