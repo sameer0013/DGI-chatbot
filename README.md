@@ -5,6 +5,8 @@ DGI-chatbot is currently available for telegram only.
 
 > To use DGI-chatbot on telegram [click here](https://t.me/DGI_tele_bot)
 
+![img](sample/output.gif)
+
 ## Prerequisites
 - Python
 - numpy
