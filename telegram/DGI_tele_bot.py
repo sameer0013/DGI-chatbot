@@ -11,14 +11,10 @@ if not os.path.exists('logs'):
     os.mkdir("logs")
 logging.basicConfig( handlers=[ logging.FileHandler('logs/DGI_tele_bot.log') ], format='%(asctime)s - %(name)s - %(message)s', level=logging.INFO)
 
-def message_is_for_chatbot(text):
-    if text is None:
-        return False
-    if text.startswith('/'):
-        if text == "/start":
+def message_is_for_chatbot(message):
+    if message.get("chat").get("type") == "private" or message.get("text").startswith('/'):
             return True    
-        return False
-    return True
+    return False
 
 # send message to private chat and reply to group chat
 def sendMessage(chat_id, message, reply_id = None): 
@@ -31,7 +27,6 @@ def sendMessage(chat_id, message, reply_id = None):
         json["reply_to_message_id"] = reply_id
     
     return r.get(API_URL + "sendMessage", json = json)
-
     # return r.get(API_URL + f"sendMessage?chat_id={id}&text={quote(message)}&parse_mode=html")
     # return r.get(API_URL + f"sendMessage?chat_id={chat_id}&text={parse_for_url(message)}&reply_to_message_id={reply_id}&parse_mode=html")
 
@@ -42,7 +37,7 @@ def get_updates():
     update = update.json()["result"]
     if len(update):
         LAST_UPDATE_ID = update[-1]["update_id"]
-        logging.info(f"Updates fetched with LAST_UPDATE_ID = {LAST_UPDATE_ID}")
+        logging.info(f"{len(update)} Updates fetched with LAST_UPDATE_ID = {LAST_UPDATE_ID}")
     return update
 
 # filter received messages
@@ -50,9 +45,9 @@ def get_messages():
     update = get_updates()
     new_messages =[]
     for i in update:
-        message = i.get("message", None)
-        if message and (message["from"]["is_bot"] is False or message.get("text") == "/start") and message_is_for_chatbot(message.get("text")):
-            new_messages.append(message)
+        message = i.get("message", i.get("channel_post", None))
+        if message and message_is_for_chatbot(message):
+                new_messages.append(message)
     return new_messages
 
 def main():
@@ -70,7 +65,7 @@ def main():
         if tele_message == "/start":
             response = "Hi, I am DGI bot. How can I help you ?"
         else:
-            response = chat(tele_message)
+            response = chat(tele_message[1:].strip())
             if response == -1:
                 response = "I don't understand. can you rephrase please"
         
@@ -79,11 +74,12 @@ def main():
         chat_id = i.get("chat").get("id")
         print(tele_message, "|", response, "|", chat_id)
     
-        if i.get("chat").get("type") == "private":
-            reply_to = None
+        reply_to = None
+        if i.get("chat").get("type") != "private":
+            reply_to = i.get("message_id")
         res = sendMessage(chat_id, response, reply_to).json()
+        logging.info(f"response callback -{res}")
         
-        logging.info(f"response send callback -{res}")
         if res.get("ok"):
             print("messege sending success")
         else:
