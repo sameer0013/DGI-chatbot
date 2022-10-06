@@ -1,16 +1,19 @@
-from nltk import download, word_tokenize
+import nltk
 import json
 import pickle
 import random
-from tflearn import DNN, regression, fully_connected, input_data
+import tflearn
 import numpy as np
-from tensorflow import reset_default_graph
+import tensorflow as tf
+from pickletools import optimize
 from nltk.stem.lancaster import LancasterStemmer
-
+from keras import models,layers
+from keras.callbacks import TensorBoard, EarlyStopping
 
 
 def main():
-    download('punkt')
+    nltk.download('punkt')
+
     stemmer = LancasterStemmer()
     with open('Model//intents.json') as json_file:
         intents = json.load(json_file)
@@ -22,7 +25,7 @@ def main():
 
     for intent in intents["intents"]:
         for pattern in intent['patterns']:
-            w = word_tokenize(pattern)
+            w = nltk.word_tokenize(pattern)
             words.extend(w)
             documents.append((w,intent['tag']))
             if intent['tag'] not in classes:
@@ -66,16 +69,16 @@ def main():
     train_y = list(training[:,1])
     
 
-    reset_default_graph()                                                #Reset Underlying Graph data
+    tf.reset_default_graph()                                                #Reset Underlying Graph data
 
     #Building our own Neural Network
-    net = input_data(shape=[None,len(train_x[0])])
-    net = fully_connected(net,8)
-    net = fully_connected(net,8)
-    net = fully_connected(net,len(train_y[0]),activation='softmax')
-    net = regression(net)
+    net = tflearn.input_data(shape=[None,len(train_x[0])])
+    net = tflearn.fully_connected(net,8)
+    net = tflearn.fully_connected(net,8)
+    net = tflearn.fully_connected(net,len(train_y[0]),activation='softmax')
+    net = tflearn.regression(net)
     
-    model = DNN(net,tensorboard_dir ='Model//tflearn_logs')                #Defining model and setting up tensorborad
+    model = tflearn.DNN(net,tensorboard_dir ='Model//tflearn_logs')                #Defining model and setting up tensorborad
 
     #Now we have to setup model, now we need to train that model by fitting data into model.fit()
     #n_epoch is the number of times that model will se our data during training
