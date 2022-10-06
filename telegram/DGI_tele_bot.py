@@ -65,7 +65,7 @@ def main():
         if tele_message == "/start":
             response = "Hi, I am DGI bot. How can I help you ?"
         else:
-            response = chat(tele_message[1:].strip())
+            response = chat(tele_message.replace('/', '').strip())
             if response == -1:
                 response = "I don't understand. can you rephrase please"
         
