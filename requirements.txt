@@ -3,6 +3,4 @@ nltk
 tensorflow
 tflearn
 h5py
-pickle
-random
 requests
