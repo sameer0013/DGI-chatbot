@@ -2,9 +2,7 @@ numpy
 nltk
 tensorflow
 tflearn
-json
 h5py
 pickle
 random
-json
 requests
