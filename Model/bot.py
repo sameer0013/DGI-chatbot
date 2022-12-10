@@ -1,14 +1,14 @@
-import nltk
+from  nltk import word_tokenize
 import json
 import random
 import pickle
-import tflearn
+from tflearn import input_data,fully_connected,regression,DNN
 import numpy as np
 from tensorflow.python.framework import ops
 from nltk.stem.lancaster import LancasterStemmer 
 
 def clean_up_sentence(sentence):
-    sentence_words = nltk.word_tokenize(sentence)
+    sentence_words = word_tokenize(sentence)
     sentence_words= [stemmer.stem(word.lower()) for word in sentence_words]
 
     return sentence_words
@@ -46,12 +46,12 @@ train_x = data['train_x']
 train_y = data['train_y']
 
 ops.reset_default_graph()
-net = tflearn.input_data(shape=[None,len(train_x[0])])
-net = tflearn.fully_connected(net,8)
-net = tflearn.fully_connected(net,8)
-net = tflearn.fully_connected(net,len(train_y[0]),activation='softmax')
-net = tflearn.regression(net)
-model = tflearn.DNN(net,tensorboard_dir ='tflearn_logs')
+net = input_data(shape=[None,len(train_x[0])])
+net = fully_connected(net,8)
+net = fully_connected(net,8)
+net = fully_connected(net,len(train_y[0]),activation='softmax')
+net = regression(net)
+model = DNN(net,tensorboard_dir ='tflearn_logs')
 model.load("Model//model.tflearn",weights_only=True)
 
 with open('Model//intents.json') as f:

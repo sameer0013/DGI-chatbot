@@ -1,12 +1,6 @@
-numpy==1.21.6
-nltk==3.7
-tensorflow==1.15.0
-tflearn==0.5.0
-json==2.0.9
-keras==2.1.6
-flask==2.2.2
-h5py==2.10.0
-pickle
-random
-json
+numpy
+nltk
+tensorflow
+tflearn
+h5py
 requests

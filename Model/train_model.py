@@ -1,14 +1,13 @@
+from nltk import word_tokenize
 import nltk
 import json
 import pickle
 import random
-import tflearn
+from tflearn import input_data,fully_connected,regression,DNN
 import numpy as np
 import tensorflow as tf
 from pickletools import optimize
 from nltk.stem.lancaster import LancasterStemmer
-from keras import models,layers
-from keras.callbacks import TensorBoard, EarlyStopping
 
 
 def main():
@@ -25,7 +24,7 @@ def main():
 
     for intent in intents["intents"]:
         for pattern in intent['patterns']:
-            w = nltk.word_tokenize(pattern)
+            w = word_tokenize(pattern)
             words.extend(w)
             documents.append((w,intent['tag']))
             if intent['tag'] not in classes:
@@ -72,13 +71,13 @@ def main():
     tf.reset_default_graph()                                                #Reset Underlying Graph data
 
     #Building our own Neural Network
-    net = tflearn.input_data(shape=[None,len(train_x[0])])
-    net = tflearn.fully_connected(net,8)
-    net = tflearn.fully_connected(net,8)
-    net = tflearn.fully_connected(net,len(train_y[0]),activation='softmax')
-    net = tflearn.regression(net)
+    net = input_data(shape=[None,len(train_x[0])])
+    net = fully_connected(net,8)
+    net = fully_connected(net,8)
+    net = fully_connected(net,len(train_y[0]),activation='softmax')
+    net = regression(net)
     
-    model = tflearn.DNN(net,tensorboard_dir ='Model//tflearn_logs')                #Defining model and setting up tensorborad
+    model = DNN(net,tensorboard_dir ='Model//tflearn_logs')                #Defining model and setting up tensorborad
 
     #Now we have to setup model, now we need to train that model by fitting data into model.fit()
     #n_epoch is the number of times that model will se our data during training
