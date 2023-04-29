@@ -1119,6 +1119,29 @@
                                 "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here."
                         ],
                         "context_set": ""
+                },
+                {
+                        "tag": "calender",
+                        "patterns":[
+                                "academic calendar",
+                                "this year calendar",
+                                "this semester information",
+                                "yearly calendar",
+                                "calendar",
+                                "day wise schedule",
+                                "schedule of this year",
+                                "semester schedule",
+                                "year schedule",
+                                "year calendar",
+                                "academic calendar of this year",
+                                "day wise events",
+                                "schedule"
+                        ],
+                        "responses":[
+                                "You can check the academic calendar from offical <a target = \"_blank\" href =\"https://gnindia.dronacharya.info/academiccalendar.aspx/\"> page."
+                        ],
+                        "context_set": ""
                 }
+                
         ]
 }
