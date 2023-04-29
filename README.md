@@ -36,6 +36,8 @@ Add web browser based UI to interect with DGI-chatbot
 ## Train your own model
 Use train_model.py to train the model for your own. The default parameters are the best for our system, and were used to train model. you will need to adjust them accordingly 
 ## Contributors
-[Sameer](https://github.com/sameer0013/)
 
 [Pranjal](https://github.com/pran-jal)
+
+[Sameer](https://github.com/sameer0013/)
+
