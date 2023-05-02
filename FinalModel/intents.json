@@ -325,7 +325,7 @@
                                 "tell me something about the online fees submission"
                         ],
                         "responses": [
-                                "For Fee Submission visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Online-Fee-Payment.aspx\"> here</a>"
+                                "For Fee Submission visit [here](https://gnindia.dronacharya.info/Online-Fee-Payment.aspx)"
                         ],
                         "context_set": ""
                 },

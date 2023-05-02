@@ -1,5 +1,10 @@
 *.db
 *.pyc
+*.env
+
+telegram_token.py
+discord_token.py
+
 logs/
 test.py
 Model/tflearn_logs

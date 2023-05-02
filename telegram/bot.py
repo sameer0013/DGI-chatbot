@@ -4,12 +4,19 @@ import logging
 import database
 import requests as r
 sys.path.insert(1, ".")
-from Model.bot import chat
-from bot_config import API_URL, LAST_UPDATE_ID
+from FinalModel.bot import chat
+
+from bot_config import API_URL, LAST_UPDATE_ID, BOT_LOG_PATH
+
+
+
+
 
 if not os.path.exists('logs'):
     os.mkdir("logs")
-logging.basicConfig( handlers=[ logging.FileHandler('logs/DGI_tele_bot.log') ], format='%(asctime)s - %(name)s - %(message)s', level=logging.INFO)
+logging.basicConfig( handlers=[ logging.FileHandler(BOT_LOG_PATH) ], format='%(asctime)s - %(name)s - %(message)s', level=logging.INFO)
+
+
 
 def message_is_for_chatbot(message):
     if message.get("chat").get("type") == "private" or message.get("text").startswith('/'):
@@ -21,7 +28,7 @@ def sendMessage(chat_id, message, reply_id = None):
     json = {
         "chat_id":chat_id, 
         "text": message, 
-        "parse_mode": "html",
+        "parse_mode": "MarkdownV2",
     }
     if reply_id:
         json["reply_to_message_id"] = reply_id
@@ -34,6 +41,7 @@ def sendMessage(chat_id, message, reply_id = None):
 def get_updates():
     global LAST_UPDATE_ID
     update = r.get( API_URL + f"getUpdates?offset={LAST_UPDATE_ID+1}&timeout=100")
+    logging.info(update.json())
     update = update.json()["result"]
     if len(update):
         LAST_UPDATE_ID = update[-1]["update_id"]
