@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import sys
 sys.path.insert(1,".")
-from Model.bot import chat
+from FinalModel.bot import chat
 import time
 
 
