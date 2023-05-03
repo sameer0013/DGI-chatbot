@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import sys
 sys.path.insert(1,".")
-from FinalModel.bot import chat
+from Model.bot import chat
 import time
 
 
@@ -15,7 +15,7 @@ def home():
 def get_bot_response():
     userText = request.args.get('msg')
     time.sleep(1)
-    return str(chat(userText))
+    return str(chat(userText)["web"])
 
 if __name__ == "__main__":
   app.run()
