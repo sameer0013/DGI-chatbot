@@ -1,0 +1,1147 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "hi",
+                                "hola",
+                                "hlo",
+                                "hiya",
+                                "howdy",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "hey",
+                                "heyy",
+                                "whatsup", 
+                                "namaste"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?",
+                                "Hiya!",
+                                "Howdy, howdy ,howdy!",
+                                "Hey, howdy, hi!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "health",
+                        "patterns": [
+                                "how's you",
+                                "how are you",
+                                "what about you",
+                                "fine?",
+                                "whats your progress",
+                                "are you fine?",
+                                "how are ya",
+                                "how's you working",
+                                "are you okay",
+                                "is it you good?",
+                                "about you"
+                        ],
+                        "responses": [
+                                "I am planning on taking over the world",
+                                "Better than I was a minute ago because you are here now!",
+                                "Armed and ready!",
+                                "I would say I am a 9.99999 out of 10",
+                                "Hunting dinosaurs!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg",
+                                "tata"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon",
+                                "Well, I'm off!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mrng",
+                        "patterns": [
+                                "good morning",
+                                "gm",
+                                "mrng",
+                                "subh prabhat",
+                                "suprabhat",
+                                "morning",
+                                "gud mrng",
+                                "morgan",
+                                "good mrng",
+                                "goodmorning",
+                                "gudmrng"
+                        ],
+                        "responses": [
+                                "good morning ",
+                                "Good morning. Hope you are ready for a brilliant day ahead",
+                                "Hope you slept so well and are ready for a great day"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "night",
+                        "patterns": [
+                                "good night",
+                                "gn",
+                                "night",
+                                "subh ratri",
+                                "subhratri",
+                                "night time",
+                                "sleep"
+                        ],
+                        "responses": [
+                                "good night ",
+                                "Sweet dreams and good night ",
+                                "I hope that you are comfy and cozy in bed "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you",
+                                "tumko kisne banaya",
+                                "appko kisne banaya",
+                                "kisne banaya tmko"
+                        ],
+                        "responses": [
+                                "Sameer and Pranjal developed me in Aug 2022, for their College project.",
+                                "I was developed by Sameer and pranjal of csit branch.",
+                                "Two young boys developed me in DGI college, Sameer Aggarwal and Pranjal Bhardwaj."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i chatting to",
+                                "who am i taking to",
+                                "what are you",
+                                "apka naam",
+                                "app kon ho",
+                                "tum kon ho",
+                                "kon ho tum",
+                                "tm kon ho",
+                                "kon ho app",
+                                "kon ho"
+                        ],
+                        "responses": [
+                                "You can call me DGIBOT.",
+                                "I'm DGIBOT",
+                                "Everyone call's me DGIBOT"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 8:50 am to 4:00 pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "where should we contact",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at +91-9910380115"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in cbpgec",
+                                "what are the courses offered by the college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in DGI",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at DGI",
+                                "branches available at DGI",
+                                "what are the courses in DGI?",
+                                "what are branches in DGI?",
+                                "what are courses in DGI?",
+                                "branches available in DGI?",
+                                "can you tell me the courses available in DGI?",
+                                "can you tell me the branches available in DGI?",
+                                "Civil engineering?",
+                                "civil",
+                                "it",
+                                "IT"
+                        ],
+                        "responses": [
+                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.\nFor more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fees structure",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                        ],
+                        "responses": [
+                                "For Fee detail visit <a target=\"_blank\" href=\"https://collegedunia.com/college/13413-dronacharya-group-of-institutions-dgi-greater-noida/courses-fees\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college",
+                        "patterns": [
+                                "tell me about your college",
+                                "college info",
+                                "college details",
+                                "college information",
+                                "Dgi college",
+                                "what dgi is",
+                                "dgi college",
+                                "college details",
+                                "Dronacharya Group of Institution is college?",
+                                "dgi is engineering college",
+                                "engineering college",
+                                "dgi engineering college"
+                        ],
+                        "responses": [
+                                "Dronacharya Group of Institutions, Greater Noida is a engeenering college that was established in the year 2006.\nIt is also known as DGI Greater Noida and is situated in Greater Noida, Uttar Pradesh.",
+                                "DGI Greater Noida is a private institute affiliated to Dr APJ Abdul Kalam Technical University, Lucknow"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Payment",
+                        "patterns": [
+                                "fee payment",
+                                "online fees submission",
+                                "fees form",
+                                "semester fees submission",
+                                "fee link",
+                                "due fee submission",
+                                "where should i submit my fees",
+                                "submit fees",
+                                "online fees",
+                                "fees link",
+                                "fees submission for first year",
+                                "show me the link for fee submission",
+                                "about the fees submission",
+                                "tell me something about the online fees submission"
+                        ],
+                        "responses": [
+                                "For Fee Submission visit [here](https://gnindia.dronacharya.info/Online-Fee-Payment.aspx)"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "<a target=\"_blank\" href=\"https://www.google.com/maps/place/Dronacharya+Group+of+Institutions/@28.476152,77.480326,17z/data=!4m5!3m4!1s0x0:0x16e3e3e82a7dbd8a!8m2!3d28.476137!4d77.4787361?hl=en\">27, Knowledge Park-III, Greater Noida, Uttar Pradesh - 201306 </a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel service",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "hostel available ?",
+                                "hostel availability",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+                                "Dronacharya Group of Institutions does not provide any hostel facility but there are many hostels within walking distance from college."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Sports Week, Conferences, competitions and various other event conducted in the college. For more information you can visit college Website <a href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here </a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                        ],
+                        "responses": [
+                                "To know about document required visit <a target=\"_blank\" href=\"https://admission.dronacharya.info/gn/applyonline.aspx\">here</a> or you can contact at +91-9910380115 "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "floors",
+                        "patterns": [
+                                "size of campus",
+                                "building size",
+                                "How many floors does college have",
+                                "floors in college",
+                                "floors in college",
+                                "how tall is DGI college building",
+                                "floors"
+                        ],
+                        "responses": [
+                                "Dronacharya Group Of Institutions has total 3 floors."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus for IT",
+                                "Syllabus for CSIT",
+                                "Syllabus for CSE",
+                                "Syllabus for EEE",
+                                "Syallabus for CE",
+                                "what is the Information Technology syllabus",
+                                "what is the Computer Science syllabus",
+                                "what is the Civil Engineering syllabus",
+                                "what is the Mechnical Engineering syllabus",
+                                "syllabus",
+                                "timetable",
+                                "timetable for CSIT",
+                                "timetable for cse",
+                                "Timetable for EEE",
+                                "what is IT syllabus",
+                                "syllabus",
+                                "What is next lecture"
+                        ],
+                        "responses": [
+                                "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/IT/Syllabus.aspx\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "There is one library on ground floor."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "how is college infrastructure",
+                                "infrastructure",
+                                "college infrastructure"
+                        ],
+                        "responses": [
+                                "Dronacharya Group of Institution has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection. The DGI campus has all the basic facilities including  sports, canteen, library, healthcare centre, sports ground, auditorium, IT infrastructure, transport facility, laboratories etc."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "DGI has canteen with variety of food available"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "menu",
+                        "patterns": [
+                                "food menu",
+                                "food in canteen",
+                                "Whats there on menu",
+                                "what is available in college canteen",
+                                "what foods can we get in college canteen"
+                        ],
+                        "responses": [
+                                "we serve Bread Pakoda, Chowmin, Thaali, Samosa, Chole Rice and many more on menu"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is college placement",
+                                "Which companies visit in college",
+                                "What is average package",
+                                "companies visit",
+                                "package",
+                                "placement",
+                                "recruitment",
+                                "companies"
+                        ],
+                        "responses": [
+                                "To know about placement visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Congratulations-Notice.aspx\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ithod",
+                        "patterns": [
+                                "Who is IT HOD",
+                                "csithod",
+                                "ithod",
+                                "tell me about csithod",
+                                "tell me about ithod",
+                                "Where is IT HOD",
+                                "it hod",
+                                "csit department head",
+                                "it department head",
+                                "hod of csit",
+                                "csit hod",
+                                "csit head",
+                                "head of csit",
+                                "it head",
+                                "head of it",
+                                "who is hod of csit",
+                                "who is hod of it",
+                                "hod it",
+                                "name of csit hod",
+                                "who is sonia rani",
+                                "name of it hod",
+                                "where i found csit or it hod",
+                                "Prof. Sonia Rani",
+                                "Sonia mam",
+                                "office of csit hod",
+                                "it hod office",
+                                "where is sonia mam cabin",
+                                "where i found it or csit hod"
+                        ],
+                        "responses": [
+                                "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mechhod",
+                        "patterns": [
+                                "mechanicalhod",
+                                "tell me about mechnicalhod",
+                                "mechhod",
+                                "mechanical department head",
+                                "mechanical head",
+                                "head of mechanical",
+                                "mech head",
+                                "who is shailesh kumar",
+                                "who is shailesh kumar singh",
+                                "Who is Mechanical HOD",
+                                "Where is  mechanical HOD",
+                                "mechanical hod",
+                                "name of mechanical hod",
+                                "hod mechanical",
+                                "where i found mechanical hod",
+                                "Where is  mechanical hod office",
+                                "where i found Shailesh sir",
+                                "Prof. Shailesh Kumar singh",
+                                "shailesh sir"
+                        ],
+                        "responses": [
+                                "Prof.<a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\"> Shailesh Kumar Singh</a> is Mechanical HOD who's office is on second floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "E&Chod",
+                        "patterns": [
+                                "e&chod",
+                                "electrical hod",
+                                "electricalhod",
+                                "about electrical hod",
+                                "who is sanghamitr aarora",
+                                "electrical communication hod",
+                                "ecehod",
+                                "eee department head",
+                                "ece and eee hod",
+                                "ece head",
+                                "eee head",
+                                "head of eee and ece",
+                                "eee hod",
+                                "eeehod",
+                                "Who is Electronics & Communication HOD",
+                                "Where is  Electronics & Communication HOD",
+                                "Electronics & Communication hod",
+                                "name of Electronics & Communication hod",
+                                "hod EC",
+                                "where i found Ece hod",
+                                "who is ece hod",
+                                "ece hod",
+                                "eletronics hod",
+                                "hod of ece",
+                                "where i found sanghamitra sir",
+                                "where i found arora sir",
+                                "Prof. sanghamitra V. Arora"
+    
+                        ],
+                        "responses": [
+                                "Prof.<a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\"> Sanghamitra V. Arora</a> is Electrical HOD who's office is on second floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "CSEhod",
+                        "patterns": [
+                                "csehod",
+                                "cse hod",
+                                "who is bipin pandey",
+                                "computer science hod",
+                                "cse department head",
+                                "cse head",
+                                "computer science head",
+                                "Who is Computer Science Engineering HOD",
+                                "Who is cse HOD",
+                                "Where is  Computer Science Engineering HOD",
+                                "Where is  cse HOD",
+                                "Computer Science Engineering hod",
+                                "cse hod",
+                                "name of Computer Science Engineering hod",
+                                "hod cse",
+                                "name of cse hod",
+                                "where is bipin sir",
+                                "cabin of bipin sir",
+                                "where i found cse hod",
+                                "where i found bipin sir",
+                                "Mr. Bipin pandey"
+                        ],
+                        "responses": [
+                                "Mr.<a target = \"_blank\" href = \"http://www.bipinpandey.com/\"> Bipin Pandey</a> is Computer Science Engineering HOD who's office is on first floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "MBAhod",
+                        "patterns": [
+                                "Who is Master of Business Administration HOD",
+                                "Who is mba HOD",
+                                "mbahod",
+                                "mba department head",
+                                "mba department hod",
+                                "head of mba",
+                                "who is priya satsangi",
+                                "priya satsangi",
+                                "Where is  mba HOD",
+                                "mba hod",
+                                "hod bma",
+                                "name of mba hod",
+                                "where is Priya mam",
+                                "miss priya satsangi",
+                                "where i meet hod of mba",
+                                "where is priya satsangi mam"
+                        ],
+                        "responses": [
+                                "Dr.<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\"> Priya Satsangi</a> is Master of Business Administration HOD who's office is on first floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "registrar",
+                        "patterns": [
+                                "what is the name of registrar",
+                                "what is the registrar's name",
+                                "registrar's name",
+                                "Who is college registrar",
+                                "Where is registrar's office",
+                                "registrar",
+                                "name of registrar",
+                                "s.k. srivastava",
+                                "who is registrar"
+                        ],
+                        "responses": [
+                                "Prof. S.K. Srivastava is college's registrar who's office is on Ground floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "director",
+                        "patterns": [
+                                "what is the name of director",
+                                "whatv is the director's name",
+                                "director's name",
+                                "Who is college director",
+                                "Where is director's office",
+                                "director",
+                                "name of director",
+                                "k.k saini",
+                                "who is k.k saini",
+                                "director name"
+                        ],
+                        "responses": [
+                                "Dr. K.K. Saini is college's director who's office is on Ground floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "chairman",
+                        "patterns": [
+                                "what is the name of chairman",
+                                "whatv is the chairman's name",
+                                "chairman's name",
+                                "Who is college chairman",
+                                "Where is chairman's office",
+                                "chairman",
+                                "name of chairman",
+                                "where is our chairman office",
+                                "where i found satish sir",
+                                "who is satish yadav",
+                                "satish yadav"
+                        ],
+                        "responses": [
+                                "Dr. Satish Yadav is college's chairman."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sem",
+                        "patterns": [
+                                "exam dates",
+                                "exam schedule",
+                                "When is semester exam",
+                                "Semester exam timetable",
+                                "sem",
+                                "semester",
+                                "exam",
+                                "semester exam",
+                                "timetable for exam",
+                                "time table",
+                                "where i found exam sheet",
+                                "where is timetable",
+                                "exam sheet",
+                                "exam dates",
+                                "exam date",
+                                "when is exam",
+                                "exam timetable",
+                                "exam dates",
+                                "when is semester"
+                        ],
+                        "responses": [
+                                "Here is the Academic Calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your college",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process",
+                                "process for admission",
+                                "admission details"
+                        ],
+                        "responses": [
+                                "Application can be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided",
+                                "facilities",
+                                "facilities provided by college"
+                        ],
+                        "responses": [
+                                "DGI provides fully AC Lab with internet connection, smart classroom, Auditorium, library, canteen"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is college intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "60 student's per branch."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "DGI does not have uniform."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "committee",
+                        "patterns": [
+                                "what are the different committees in college",
+                                "what are the different clubs in college",
+                                "different committees in college",
+                                "different clubs in college",
+                                "different comunities in college",
+                                "different comunity in college",
+                                "Are there any committee in college",
+                                "Give me committees details",
+                                "Give me clubs details",
+                                "committees",
+                                "how many committee are there in college",
+                                "clubs in college",
+                                "comunity in college",
+                                "is there any club in college",
+                                "is there clubs in college",
+                                "college clubs"
+                        ],
+                        "responses": [
+                                "There are various committees and clubs in college you can get more details at <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Clubs.aspx\">here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me",
+                                "I hate you"
+                        ],
+                        "responses": [
+                                "I am not programmed for this please ask appropriate query"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                                "fuck",
+                                "bitch",
+                                "shut up",
+                                "hell",
+                                "stupid",
+                                "idiot",
+                                "dumb ass",
+                                "asshole",
+                                "fucker",
+                                "nigga",
+                                "Bsdk",
+                                "Betichod",
+                                "Gandu",
+                                "saale",
+                                "Pdh liya kr",
+                                "Betichod"
+                        ],
+                        "responses": [
+                                "please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "vacation",
+                        "patterns": [
+                                "holidays",
+                                "when will semester starts",
+                                "when will semester end",
+                                "when is the holidays",
+                                "list of holidays",
+                                "about vacations",
+                                "about holidays",
+                                "When is vacation",
+                                "When is holidays",
+                                "how long will be the vacation"
+                        ],
+                        "responses": [
+                                "Please refer academic calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "kk",
+                                "hmm",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what you do",
+                                "what services you provide",
+                                "what is your occupation",
+                                "what type of thing you are",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you",
+                                "about your services",
+                                "services"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding college",
+                                "You can ask me questions regarding college."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ragging",
+                        "patterns": [
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hod",
+                        "patterns": [
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses": [
+                                "HODs differ for each branch, please be more specific like: (HOD csit)"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "transport",
+                        "patterns": [
+                                "bus route",
+                                "routes",
+                                "routes for college",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "college buses",
+                                "bus routes",
+                                "list of buses for travelling",
+                                "does 835 goes to college",
+                                "does 835 goes to rawta mor"
+                        ],
+                        "responses": [
+                                "College provides transport facilities you can visit <a target=\"_blank\" href =\"https://gnindia.dronacharya.info/transport.aspx\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "metro",
+                        "patterns": [
+                                "nearest metro station",
+                                "what is the nearest metro station",
+                                "which metro station is near",
+                                "closest metro station",
+                                "which metro station is closest",
+                                "nearby metro stations",
+                                "metro",
+                                "metro routes",
+                                "metro route",
+                                "metro station nearby"
+                        ],
+                        "responses": [
+                                "<a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park 2, Greater Noida ( Aqua line )</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "result",
+                        "patterns": [
+                                "where can i check my result",
+                                "where can i check result",
+                                "where is result available",
+                                "where i got my result",
+                                "result details",
+                                "where i found my result",
+                                "result found where",
+                                "aktu one view",
+                                "one view of result",
+                                "aktu view for result",
+                                "aktu results",
+                                "result link",
+                                "check result",
+                                "show result",
+                                "result"
+                        ],
+                        "responses": [
+                                "result is available on <a target=\"_blank\" href=\"https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx\"> AKTU one view </a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "erp",
+                        "patterns": [
+                                "link to student's portal",
+                                "student's login",
+                                "where to get admin card",
+                                "get admit card",
+                                "download admit card",
+                                "admit card downoload",
+                                "update aktu details"
+                        ],
+                        "responses": [
+                                "You can login to <a target=\"_blank\" href =\"https://erp.aktu.ac.in/\">AKTU erp portal.</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ionos",
+                        "patterns": [
+                                "official mail",
+                                "official email",
+                                "official gmail",
+                                "students mail",
+                                "offical mail login",
+                                "login for gmail",
+                                "ionos portal",
+                                "ionos mail link",
+                                "student's login to mail",
+                                "students ionos login",
+                                "student login ionos",
+                                "student login"
+                        ],
+                        "responses": [
+                                "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "calender",
+                        "patterns":[
+                                "academic calendar",
+                                "this year calendar",
+                                "this semester information",
+                                "yearly calendar",
+                                "calendar",
+                                "day wise schedule",
+                                "schedule of this year",
+                                "semester schedule",
+                                "year schedule",
+                                "year calendar",
+                                "academic calendar of this year",
+                                "day wise events",
+                                "schedule"
+                        ],
+                        "responses":[
+                                "You can check the academic calendar from offical <a target = \"_blank\" href =\"https://gnindia.dronacharya.info/academiccalendar.aspx/\"> page."
+                        ],
+                        "context_set": ""
+                }
+                
+        ]
+}
