@@ -2,9 +2,10 @@ import os
 import sys
 import logging
 import database
-import requests as r
+import traceback
+from requests import get
 sys.path.insert(1, ".")
-from FinalModel.bot import chat
+from Model.bot import chat
 
 from bot_config import API_URL, LAST_UPDATE_ID, BOT_LOG_PATH
 
@@ -14,6 +15,7 @@ from bot_config import API_URL, LAST_UPDATE_ID, BOT_LOG_PATH
 
 if not os.path.exists('logs'):
     os.mkdir("logs")
+
 logging.basicConfig( handlers=[ logging.FileHandler(BOT_LOG_PATH) ], format='%(asctime)s - %(name)s - %(message)s', level=logging.INFO)
 
 
@@ -23,69 +25,84 @@ def message_is_for_chatbot(message):
             return True    
     return False
 
+
 # send message to private chat and reply to group chat
 def sendMessage(chat_id, message, reply_id = None): 
+    
     json = {
-        "chat_id":chat_id, 
-        "text": message, 
-        "parse_mode": "MarkdownV2",
+        "chat_id" : chat_id, 
+        "text" : message, 
+        "parse_mode" : "html",
     }
+    
     if reply_id:
         json["reply_to_message_id"] = reply_id
     
-    return r.get(API_URL + "sendMessage", json = json)
-    # return r.get(API_URL + f"sendMessage?chat_id={id}&text={quote(message)}&parse_mode=html")
-    # return r.get(API_URL + f"sendMessage?chat_id={chat_id}&text={parse_for_url(message)}&reply_to_message_id={reply_id}&parse_mode=html")
+    return get(API_URL + "sendMessage", json = json)
+    # return get(API_URL + f"sendMessage?chat_id={id}&text={quote(message)}&parse_mode=html")
+    # return get(API_URL + f"sendMessage?chat_id={chat_id}&text={parse_for_url(message)}&reply_to_message_id={reply_id}&parse_mode=html")
 
 # get updates
 def get_updates():
+    
     global LAST_UPDATE_ID
-    update = r.get( API_URL + f"getUpdates?offset={LAST_UPDATE_ID+1}&timeout=100")
-    logging.info(update.json())
-    update = update.json()["result"]
-    if len(update):
-        LAST_UPDATE_ID = update[-1]["update_id"]
-        logging.info(f"{len(update)} Updates fetched with LAST_UPDATE_ID = {LAST_UPDATE_ID}")
-    return update
+    
+    updates = get( API_URL + f"getUpdates?offset={LAST_UPDATE_ID+1}&timeout=100")
+    
+    logging.info(updates.json())
+
+    latest_updates = updates.json()["result"]
+
+    if len(latest_updates):
+        LAST_UPDATE_ID = latest_updates[-1]["update_id"]
+        logging.info(f"{len(latest_updates)} Updates fetched with LAST_UPDATE_ID = {LAST_UPDATE_ID}")
+        
+    return latest_updates
+
 
 # filter received messages
-def get_messages():
-    update = get_updates()
-    new_messages =[]
-    for i in update:
-        message = i.get("message", i.get("channel_post", None))
+def get_messages(updates):
+    new_messages = []
+    for update in updates:
+        message = update.get("message", update.get("channel_post", None))
         if message and message_is_for_chatbot(message):
                 new_messages.append(message)
     return new_messages
 
 def main():
+
     print("checking for new message...", end='')
-    
     logging.info("checking for new message")
-    update = get_messages()
+    
+    latest_messages = get_messages(get_updates())
     print("", end = "\r")
     
-    for i in update:
+    for message in latest_messages:
         
-        logging.info(f"responding to - {i}")
+        logging.info(f"responding to - {message}")
         
-        tele_message = i["text"]
-        if tele_message == "/start":
+        message_content = message["text"]
+        if message_content == "/start":
             response = "Hi, I am DGI bot. How can I help you ?"
         else:
-            response = chat(tele_message.replace('/', '').strip())
-            if response == -1:
-                response = "I don't understand. can you rephrase please"
+            try:
+                response = chat(message_content.replace('/', '').strip())
+                if type(response) == dict:
+                    response = response.get("telegram", response)
+            except:
+                logging.error(chat(message_content.replace('/', '').strip()))
+                logging.error(traceback.print_exc())
+                continue
         
         response = str(response)
         
-        chat_id = i.get("chat").get("id")
-        print(tele_message, "|", response, "|", chat_id)
+        chat_id = message.get("chat").get("id")
+        print(message_content, "|", response, "|", chat_id)
     
-        reply_to = None
-        if i.get("chat").get("type") != "private":
-            reply_to = i.get("message_id")
-        res = sendMessage(chat_id, response, reply_to).json()
+        receiver = None
+        if message.get("chat").get("type") != "private":
+            receiver = message.get("message_id")
+        res = sendMessage(chat_id, response, receiver).json()
         logging.info(f"response callback -{res}")
         
         if res.get("ok"):
@@ -93,7 +110,7 @@ def main():
         else:
             print("message sending Failed")
         
-        database.insert(tele_message)
+        database.insert(message_content)
 
 if __name__ == "__main__":
     database.con_table()

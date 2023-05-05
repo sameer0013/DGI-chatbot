@@ -1,6 +1,7 @@
 *.db
 *.pyc
 *.env
+*.sqlite3
 
 telegram_token.py
 discord_token.py

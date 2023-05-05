@@ -1,14 +1,12 @@
 #Discord Voice Assistent 
 #Permissions = 36715520
 
-import os
-import random
 import discord
 from discord.ext import commands
 from discord_token import DISCORD_TOKEN
 import sys
 sys.path.insert(1, './')
-from FinalModel.bot import chat
+from Model.bot import chat
 
 
 intents = discord.Intents.all()
@@ -36,8 +34,14 @@ async def on_message(message):
     if message.content.startswith('hi') :
         await message.channel.send(f'Hello! {message.author.name}', tts=True)
     else :
-        await message.channel.send(chat(message.content))
-
+        response = chat(message.content)
+        if type(response) == dict:
+            response = response.get("discord", response)
+            embed = discord.Embed()
+            embed.description = response
+            await message.channel.send(embed=embed)
+        else:
+            await message.channel.send(response)
 
 
 @client.event
