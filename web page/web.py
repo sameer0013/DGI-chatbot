@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import sys
 sys.path.insert(1,".")
-from Model.bot import chat
+from EmbeddingModel.bot import chat
 import time
 
 
@@ -21,4 +21,4 @@ def get_bot_response():
     return response
 
 if __name__ == "__main__":
-  app.run()
+  app.run(debug = True)

@@ -69,8 +69,17 @@ def main():
   epochs = 1000
   history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs)
 
-  model.save('EmbeddingModel//model.h5') #saving model
-  pickle.dump({'tokenizer': tokenizer,'max_len':max_len,'encoder':encoder, 'classes': labels, 'model': model}, open(TRAINING_DATA_PATH, 'wb'))
+  print('Model and Data Saving')
+  model.save('EmbeddingModel//chat_model') #saving model
+  
+  with open('EmbeddingModel//tokenizer.pickle','wb') as handle:
+    pickle.dump(tokenizer,handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+  with open('EmbeddingModel//label_encoder.pickle','wb') as file:
+    pickle.dump(encoder,file,protocol=pickle.HIGHEST_PROTOCOL)   
+
+  print("Model and Data Saved")
+
+  return 
 if __name__ == '__main__':
    main()
