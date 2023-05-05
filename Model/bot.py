@@ -31,7 +31,7 @@ def chat(inp):
     results=model.predict([bow(inp,words)])
     results_index=np.argmax(results)
     if(results[0][results_index]<error_thresold):
-      return -1
+      return "I don't understand. can you rephrase please"
     tag=classes[results_index]
     for tg in intents["intents"]:
       if tg["tag"]==tag:

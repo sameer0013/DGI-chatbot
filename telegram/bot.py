@@ -85,11 +85,10 @@ def main():
         if message_content == "/start":
             response = "Hi, I am DGI bot. How can I help you ?"
         else:
-            response = chat(message_content.replace('/', '').strip())
             try:
-                response = response.get("telegram", response)
-                if response == -1 or response == '-1':
-                    response = "I don't understand. can you rephrase please"
+                response = chat(message_content.replace('/', '').strip())
+                if type(response) == dict:
+                    response = response.get("telegram", response)
             except:
                 logging.error(chat(message_content.replace('/', '').strip()))
                 logging.error(traceback.print_exc())

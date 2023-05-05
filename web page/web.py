@@ -14,8 +14,11 @@ def home():
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get('msg')
-    time.sleep(1)
-    return str(chat(userText)["web"])
+    response = chat(userText.strip())
+    if type(response) == dict:
+        response = response.get("web", response)
+    
+    return response
 
 if __name__ == "__main__":
   app.run()
