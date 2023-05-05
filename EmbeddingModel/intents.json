@@ -14,7 +14,7 @@
                                 "Whats up",
                                 "hey",
                                 "heyy",
-                                "whatsup", 
+                                "whatsup",
                                 "namaste"
                         ],
                         "responses": [
@@ -57,6 +57,8 @@
                                 "cya",
                                 "see you",
                                 "bye bye",
+                                "ok bye",
+                                "bye ok",
                                 "See you later",
                                 "Goodbye",
                                 "I am Leaving",
@@ -256,7 +258,11 @@
                                 "IT"
                         ],
                         "responses": [
-                                "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.\nFor more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>"
+                                {
+                                        "web": "Dronacharya Group of Institutions, Greater Noida offers nine B.Tech programmes and one M.B.A programme.\nFor more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>.",
+                                        "telegram": "Dronacharya Group of Institutions, Greater Noida offers nine B.Tech programmes and one M.B.A programme.\nFor more details you can click on this <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">link</a>.",
+                                        "discord": "DGI Greater Noida offers nine B.Tech programmes and one M.B.A programme.\nFor more details you can click on this [link](https://gnindia.dronacharya.info/)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -280,7 +286,11 @@
                                 "tell me something about the fees"
                         ],
                         "responses": [
-                                "For Fee detail visit <a target=\"_blank\" href=\"https://collegedunia.com/college/13413-dronacharya-group-of-institutions-dgi-greater-noida/courses-fees\"> here</a>"
+                                {
+                                        "web": "For Fee details visit <a target=\"_blank\" href=\"https://collegedunia.com/college/13413-dronacharya-group-of-institutions-dgi-greater-noida/courses-fees\">here</a>.",
+                                        "telegram": "For Fee details visit <a target=\"_blank\" href=\"https://collegedunia.com/college/13413-dronacharya-group-of-institutions-dgi-greater-noida/courses-fees\">here.</a>",
+                                        "discord": "For Fee details visit [here](https://collegedunia.com/college/13413-dronacharya-group-of-institutions-dgi-greater-noida/courses-fees)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -325,7 +335,11 @@
                                 "tell me something about the online fees submission"
                         ],
                         "responses": [
-                                "For Fee Submission visit [here](https://gnindia.dronacharya.info/Online-Fee-Payment.aspx)"
+                                {
+                                        "web": "For Fee Submission visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Online-Fee-Payment.aspx\">here</a>.",
+                                        "telegram": "For Fee Submission visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Online-Fee-Payment.aspx\">here</a>.",
+                                        "discord": "For Fee Submission visit [here](https://gnindia.dronacharya.info/Online-Fee-Payment.aspx)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -347,7 +361,11 @@
                                 "location"
                         ],
                         "responses": [
-                                "<a target=\"_blank\" href=\"https://www.google.com/maps/place/Dronacharya+Group+of+Institutions/@28.476152,77.480326,17z/data=!4m5!3m4!1s0x0:0x16e3e3e82a7dbd8a!8m2!3d28.476137!4d77.4787361?hl=en\">27, Knowledge Park-III, Greater Noida, Uttar Pradesh - 201306 </a> "
+                                {
+                                        "web": "<a target=\"_blank\" href=\"https://www.google.com/maps/place/Dronacharya+Group+of+Institutions/@28.476152,77.480326,17z/data=!4m5!3m4!1s0x0:0x16e3e3e82a7dbd8a!8m2!3d28.476137!4d77.4787361?hl=en\">27, Knowledge Park-III, Greater Noida, Uttar Pradesh - 201306 </a>",
+                                        "telegram": "<a target=\"_blank\" href=\"https://www.google.com/maps/place/Dronacharya+Group+of+Institutions/@28.476152,77.480326,17z/data=!4m5!3m4!1s0x0:0x16e3e3e82a7dbd8a!8m2!3d28.476137!4d77.4787361?hl=en\">27, Knowledge Park-III, Greater Noida, Uttar Pradesh - 201306 </a>",
+                                        "discord": "[27, Knowledge Park-III, Greater Noida, Uttar Pradesh - 201306](https://www.google.com/maps/place/Dronacharya+Group+of+Institutions/@28.476152,77.480326,17z/data=!4m5!3m4!1s0x0:0x16e3e3e82a7dbd8a!8m2!3d28.476137!4d77.4787361?hl=en)"
+                                }
                         ],
                         "context_set": ""
                 },
@@ -400,7 +418,11 @@
                                 "what about events"
                         ],
                         "responses": [
-                                "Sports Week, Conferences, competitions and various other event conducted in the college. For more information you can visit college Website <a href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\"> here </a>"
+                                {
+                                        "web": "Sports Week, Conferences, competitions and various other event conducted in the college. For more information, you can visit <a href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\">college Website</a>.",
+                                        "telegram": "Sports Week, Conferences, competitions and various other event conducted in the college. For more information, you can visit <a href=\"https://gnindia.dronacharya.info/Happenings-DGI.aspx\">college Website</a>.",
+                                        "discord": "Sports Week, Conferences, competitions and various other event conducted in the college. For more information, you can visit [college Website](https://gnindia.dronacharya.info/Happenings-DGI.aspx)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -422,7 +444,11 @@
                                 "documents needed"
                         ],
                         "responses": [
-                                "To know about document required visit <a target=\"_blank\" href=\"https://admission.dronacharya.info/gn/applyonline.aspx\">here</a> or you can contact at +91-9910380115 "
+                                {
+                                        "web": "To know about document required visit <a target=\"_blank\" href=\"https://admission.dronacharya.info/gn/applyonline.aspx\">here</a> or you can contact at +91-9910380115.",
+                                        "telegram": "To know about document required visit <a target=\"_blank\" href=\"https://admission.dronacharya.info/gn/applyonline.aspx\">here</a> or you can contact at +91-9910380115.",
+                                        "discord": "To know about document required visit [here](https://admission.dronacharya.info/gn/applyonline.aspx) or you can contact at +91-9910380115."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -464,7 +490,11 @@
                                 "What is next lecture"
                         ],
                         "responses": [
-                                "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/IT/Syllabus.aspx\"> here</a>"
+                                {
+                                        "web": "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/IT/Syllabus.aspx\">here</a>.",
+                                        "telegram": "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/IT/Syllabus.aspx\">here</a>.",
+                                        "discord": "To know about syllabus and timetable visit [here](https://gnindia.dronacharya.info/IT/Syllabus.aspx)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -547,7 +577,11 @@
                                 "companies"
                         ],
                         "responses": [
-                                "To know about placement visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Congratulations-Notice.aspx\">here</a>"
+                                {
+                                        "web": "To know about placement visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Congratulations-Notice.aspx\">here</a>.",
+                                        "telegram": "To know about placement visit <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Congratulations-Notice.aspx\">here</a>.",
+                                        "discord": "To know about placement visit [here](https://gnindia.dronacharya.info/Congratulations-Notice.aspx)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -584,7 +618,11 @@
                                 "where i found it or csit hod"
                         ],
                         "responses": [
-                                "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor"
+                                {
+                                        "web": "Dr. <a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor.",
+                                        "telegram": "Dr. <a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor.",
+                                        "discord": "Dr. [Sonia Rani](http://www.bipinpandey.com/) is the head of CSIT/IT department who's office is on first floor."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -612,7 +650,11 @@
                                 "shailesh sir"
                         ],
                         "responses": [
-                                "Prof.<a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\"> Shailesh Kumar Singh</a> is Mechanical HOD who's office is on second floor"
+                                {
+                                        "web": "Prof. <a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\">Shailesh Kumar Singh</a> is Mechanical HOD who's office is on second floor.",
+                                        "telegram": "Prof. <a target = \"_blank\" href = \"https://www.drshailesh.facultyarena.in/\">Shailesh Kumar Singh</a> is Mechanical HOD who's office is on second floor.",
+                                        "discord": "Prof. [Shailesh Kumar Singh](https://www.drshailesh.facultyarena.in/) is Mechanical HOD who's office is on second floor."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -649,7 +691,11 @@
     
                         ],
                         "responses": [
-                                "Prof.<a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\"> Sanghamitra V. Arora</a> is Electrical HOD who's office is on second floor"
+                                {
+                                        "web": "Prof. <a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\">Sanghamitra V. Arora</a> is Electrical HOD who's office is on second floor.",
+                                        "telegram": "Prof. <a target = \"_blank\" href = \"https://www.sanghamitraarora.com/\">Sanghamitra V. Arora</a> is Electrical HOD who's office is on second floor.",
+                                        "discord": "Prof. [Sanghamitra V. Aror](https://www.sanghamitraarora.com/) is Electrical HOD who's office is on second floor."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -679,7 +725,11 @@
                                 "Mr. Bipin pandey"
                         ],
                         "responses": [
-                                "Mr.<a target = \"_blank\" href = \"http://www.bipinpandey.com/\"> Bipin Pandey</a> is Computer Science Engineering HOD who's office is on first floor"
+                                {
+                                        "web": "Mr. <a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Bipin Pandey</a> is Computer Science Engineering HOD who's office is on first floor.",
+                                        "telegram": "Mr. <a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Bipin Pandey</a> is Computer Science Engineering HOD who's office is on first floor.",
+                                        "discord": "Mr. [Bipin Pandey](http://www.bipinpandey.com/) is Computer Science Engineering HOD who's office is on first floor."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -704,7 +754,11 @@
                                 "where is priya satsangi mam"
                         ],
                         "responses": [
-                                "Dr.<a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\"> Priya Satsangi</a> is Master of Business Administration HOD who's office is on first floor"
+                                {
+                                        "web": "Dr. <a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\">Priya Satsangi</a> is Master of Business Administration HOD who's office is on first floor.",
+                                        "telegram": "Dr. <a target = \"_blank\" href = \"https://priyasatsangi618.wixsite.com/website/\">Priya Satsangi</a> is Master of Business Administration HOD who's office is on first floor.",
+                                        "discord": "Dr. [Priya Satsangi](https://priyasatsangi618.wixsite.com/website/) is Master of Business Administration HOD who's office is on first floor."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -789,7 +843,11 @@
                                 "when is semester"
                         ],
                         "responses": [
-                                "Here is the Academic Calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>"
+                                {
+                                        "web": "Here is the Academic Calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>.",
+                                        "telegram": "Here is the Academic Calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">website</a>.",
+                                        "discord": "Here is the Academic Calendar [website](https://gnindia.dronacharya.info/academiccalendar.aspx)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -806,7 +864,11 @@
                                 "admission details"
                         ],
                         "responses": [
-                                "Application can be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college."
+                                {
+                                        "web": "Application can be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college.",
+                                        "telegram": "Application can be submitted online through the College <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/\">website</a> or offline by visiting college.",
+                                        "discord": "Application can be submitted online through the College [website](https://gnindia.dronacharya.info/) or offline by visiting college."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -883,7 +945,11 @@
                                 "college clubs"
                         ],
                         "responses": [
-                                "There are various committees and clubs in college you can get more details at <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Clubs.aspx\">here</a> "
+                                {
+                                        "web": "There are various committees and clubs in college you can get more details at <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Clubs.aspx\">here</a> ",
+                                        "telegram": "There are various committees and clubs in college you can get more details at <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/Clubs.aspx\">here</a> ",
+                                        "discord": "There are various committees and clubs in college you can get more details at [here](https://gnindia.dronacharya.info/Clubs.aspx) "
+                                }
                         ],
                         "context_set": ""
                 },
@@ -918,7 +984,8 @@
                                 "Gandu",
                                 "saale",
                                 "Pdh liya kr",
-                                "Betichod"
+                                "bad",
+                                "you are bad"
                         ],
                         "responses": [
                                 "please use appropriate language",
@@ -941,7 +1008,11 @@
                                 "how long will be the vacation"
                         ],
                         "responses": [
-                                "Please refer academic calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">here</a>"
+                                {
+                                        "web": "Please refer academic calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">here</a>.",
+                                        "telegram": "Please refer academic calendar <a target=\"_blank\" href=\"https://gnindia.dronacharya.info/academiccalendar.aspx\">here</a>.",
+                                        "discord": "Please refer academic calendar [here](https://gnindia.dronacharya.info/academiccalendar.aspx)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -959,6 +1030,8 @@
                                 "Thanks",
                                 "k",
                                 "kk",
+                                "great",
+                                "good",
                                 "hmm",
                                 "ok",
                                 "okay"
@@ -1036,7 +1109,11 @@
                                 "does 835 goes to rawta mor"
                         ],
                         "responses": [
-                                "College provides transport facilities you can visit <a target=\"_blank\" href =\"https://gnindia.dronacharya.info/transport.aspx\">here</a>"
+                                {
+                                        "web": "College provides transport facilities on different routes that you can check by visiting <a target=\"_blank\" href =\"https://gnindia.dronacharya.info/transport.aspx\">here</a>.",
+                                        "telegram": "College provides transport facilities on different routes that you can check by visiting <a target=\"_blank\" href =\"https://gnindia.dronacharya.info/transport.aspx\">here</a>.",
+                                        "discord": "College provides transport facilities on different routes that you can check by visiting [here](https://gnindia.dronacharya.info/transport.aspx)."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -1055,7 +1132,11 @@
                                 "metro station nearby"
                         ],
                         "responses": [
-                                "<a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park 2, Greater Noida ( Aqua line )</a>"
+                                {
+                                        "web": "<a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park 2, Greater Noida ( Aqua line ).</a>",
+                                        "telegram": "<a target =\"_blank\" href=\"https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003\">Knowledge Park 2, Greater Noida ( Aqua line ).</a>",
+                                        "discord": " [Knowledge Park 2, Greater Noida ( Aqua line ).](https://www.google.com/maps/place/Knowledge+Park+2/@28.4566172,77.5008416,241m/data=!3m1!1e3!4m12!1m6!3m5!1s0x390cea052e4af691:0x16e3e3e82a7dbd8a!2sDronacharya+Group+of+Institutions!8m2!3d28.476137!4d77.4787361!3m4!1s0x390cc1db6d5672ad:0xca7f8554159c0350!8m2!3d28.45686!4d77.5003)"
+                                }
                         ],
                         "context_set": ""
                 },
@@ -1079,7 +1160,11 @@
                                 "result"
                         ],
                         "responses": [
-                                "result is available on <a target=\"_blank\" href=\"https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx\"> AKTU one view </a>"
+                                {
+                                        "web": "Result is provided by the university only. It is available on <a target=\"_blank\" href=\"https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx\">AKTU one view </a> website.",
+                                        "telegram": "Result is provided by the university only. It is available on <a target=\"_blank\" href=\"https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx\">AKTU one view </a> website.",
+                                        "discord": "Result is provided by the university only. It is available on [AKTU one view](https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx) website."
+                                }
                         ],
                         "context_set": ""
                 },
@@ -1095,7 +1180,11 @@
                                 "update aktu details"
                         ],
                         "responses": [
-                                "You can login to <a target=\"_blank\" href =\"https://erp.aktu.ac.in/\">AKTU erp portal.</a>"
+                                {
+                                        "web": "You can login to <a target=\"_blank\" href =\"https://erp.aktu.ac.in/\">AKTU erp portal.</a>",
+                                        "telegram": "You can login to <a target=\"_blank\" href =\"https://erp.aktu.ac.in/\">AKTU erp portal.</a>",
+                                        "discord": "You can login to [AKTU erp portal.](https://erp.aktu.ac.in/)"
+                                }
                         ],
                         "context_set": ""
                 },
@@ -1116,13 +1205,17 @@
                                 "student login"
                         ],
                         "responses": [
-                                "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here."
+                                {
+                                        "web": "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here.",
+                                        "telegram": "You can login to <a target=\"_blank\" href =\"https://mail.ionos.com/\">IONOS webmail</a> here.",
+                                        "discord": "You can login to [IONOS webmail](https://mail.ionos.com/) here."
+                                }
                         ],
                         "context_set": ""
                 },
                 {
                         "tag": "calender",
-                        "patterns":[
+                        "patterns": [
                                 "academic calendar",
                                 "this year calendar",
                                 "this semester information",
@@ -1137,8 +1230,12 @@
                                 "day wise events",
                                 "schedule"
                         ],
-                        "responses":[
-                                "You can check the academic calendar from offical <a target = \"_blank\" href =\"https://gnindia.dronacharya.info/academiccalendar.aspx/\"> page."
+                        "responses": [
+                                {
+                                        "web": "You can check the academic calendar from offical <a target = \"_blank\" href =\"https://gnindia.dronacharya.info/academiccalendar.aspx/\"> page. </a>",
+                                        "telegram": "You can check the academic calendar from offical <a target = \"_blank\" href =\"https://gnindia.dronacharya.info/academiccalendar.aspx/\"> page. </a>",
+                                        "discord": "You can check the academic calendar from offical [page.](https://gnindia.dronacharya.info/academiccalendar.aspx/)"
+                                }
                         ],
                         "context_set": ""
                 }

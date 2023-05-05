@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 import sys
 sys.path.insert(1,".")
-from EmbeddingModel.config import INTENT_FILE_PATH, TRAINING_DATA_PATH
+from EmbeddingModel.config import INTENT_FILE_PATH
 
 def main():
   with open(INTENT_FILE_PATH) as file:

@@ -57,6 +57,8 @@
                                 "cya",
                                 "see you",
                                 "bye bye",
+                                "ok bye",
+                                "bye ok",
                                 "See you later",
                                 "Goodbye",
                                 "I am Leaving",
@@ -617,9 +619,9 @@
                         ],
                         "responses": [
                                 {
-                                        "web": "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor.",
-                                        "telegram": "Dr. <a target = \"_blank\" href = \"https://www.drsoniajalwal.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor.",
-                                        "discord": "Dr. [Sonia Rani](https://www.drsoniajalwal.com/) is the head of CSIT/IT department who's office is on first floor."
+                                        "web": "Dr. <a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor.",
+                                        "telegram": "Dr. <a target = \"_blank\" href = \"http://www.bipinpandey.com/\">Sonia Rani</a> is the head of CSIT/IT department who's office is on first floor.",
+                                        "discord": "Dr. [Sonia Rani](http://www.bipinpandey.com/) is the head of CSIT/IT department who's office is on first floor."
                                 }
                         ],
                         "context_set": ""
@@ -982,7 +984,8 @@
                                 "Gandu",
                                 "saale",
                                 "Pdh liya kr",
-                                "Betichod"
+                                "bad",
+                                "you are bad"
                         ],
                         "responses": [
                                 "please use appropriate language",
@@ -1027,6 +1030,8 @@
                                 "Thanks",
                                 "k",
                                 "kk",
+                                "great",
+                                "good",
                                 "hmm",
                                 "ok",
                                 "okay"
